@@ -1,0 +1,473 @@
+.company .menu {
+  height: 55px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.14);
+  border: solid 0.5px #d2d2d2;
+  background-color: #f1f3f6;
+  display: flex;
+  align-items: center;
+  min-width: 1200px;
+}
+
+.company .menu .menu_wrap {
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.company .menu .menu_wrap span {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  color: #435062;
+}
+
+.company .menu .menu_wrap .left_content {
+  width: 50%;
+  margin-right: 14px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 55px;
+  border-bottom: solid 3px #15376c;
+  cursor: pointer;
+}
+
+.company .menu .menu_wrap .right_content {
+  width: 50%;
+  margin-left: 14px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 55px;
+  cursor: pointer;
+}
+
+.company .menu .menu_wrap .vl {
+  border-left: 1px solid black;
+  height: 40px;
+}
+
+.company .section_01 .section_01_right .right_top {
+  margin-bottom: 54px;
+  height: 130px;
+  margin-left: 13px;
+}
+
+.company .section_01 .section_01_right .right_top .header {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  position: relative;
+}
+
+.company .section_01 .section_01_right .right_top .header img {
+  position: absolute;
+  top: 9px;
+  left: -17px;
+}
+
+.company .section_01 .section_01_right .right_top .content {
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 28px 0 0 0;
+  white-space: pre;
+}
+
+.company .section_01 .section_01_right .right_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.company .section_01 .section_01_right .right_content .sub_text {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.company .section_01 .section_01_right .right_content .sub_text img {
+  margin-right: 16px;
+}
+
+.company .section_01 .section_01_right .right_content .sub_text span {
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #000000;
+}
+
+.company .section_01 .section_01_right .right_bottom {
+  width: 780px;
+  margin: 30px 0 45px;
+  height: 160px;
+}
+
+.company .section_01 .section_01_right .right_bottom .text_01 {
+  padding: 22px 0 0 26px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: 0.52px;
+  text-align: left;
+  color: #ffffff;
+  white-space: pre;
+}
+
+.company .section_02 .section_02_right .right_top .text_01 {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.company .section_02 .section_02_right .right_top .text_02 {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.company .section_02 .section_02_right .right_middle {
+  margin: 44px 0 62px;
+}
+
+.company .section_02 .section_02_right .right_bottom .text_01 {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.company .section_02 .section_02_right .right_bottom .img_wrap {
+  position: relative;
+  margin: 27px 0 60px;
+}
+
+.company .section_02 .section_02_right .right_bottom .img_wrap .clickable_box {
+  width: 195px;
+  height: 37px;
+  position: absolute;
+  bottom: 35px;
+  left: 270px;
+  border-radius: 20px;
+  border: 1px;
+  cursor: pointer;
+}
+
+.company .section_03 {
+  padding-bottom: 80px;
+}
+
+.company .section_03 .section_03_right .img_text {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.company .section_03 .section_03_right .img_text span {
+  font-size: 23px;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+.company .section_03 .section_03_right .right_content {
+  background: url('/instructions/company/03/img_01.svg') no-repeat;
+  width: 685px;
+  height: 525px;
+  position: relative;
+  margin-left: 47px;
+}
+
+.company .section_03 .section_03_right .right_content .ani_wrap {
+  position: absolute;
+  right: 135px;
+  top: 128px;
+  width: 54px;
+  height: 330px;
+  overflow: hidden;
+}
+
+.company .section_03 .section_03_right .right_content .ani_wrap .ani_img {
+  position: absolute;
+  -webkit-animation-name: move_ani_01; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani_01;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move_ani_01 {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes move_ani_01 {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.company .section_04 .section_04_right .right_content {
+  margin: 50px 0 43px 14.5px;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.company .section_04 .section_04_right .right_content div {
+  display: flex;
+  align-items: center;
+}
+
+.company .section_04 .section_04_right .right_content div img {
+  margin-right: 30px;
+}
+
+.company .section_05_right .right_content {
+  position: relative;
+  height: 315px;
+  margin: 55px 0 0 50px;
+}
+
+.company .section_05_right .right_content .content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+
+.company .section_05_right .right_content .content .dot img {
+  margin: 0 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.company .section_05_right .content span {
+  width: 55px;
+}
+
+.company .section_05 .law_form {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.75;
+  color: #15376c;
+}
+
+.company .amount {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.71;
+  letter-spacing: -1.1px;
+  color: #15376c;
+}
+
+.company .dot {
+  width: 60px;
+  height: 68px;
+  border-right: dotted 2px #959595;
+  display: flex;
+}
+
+.company .animation_wrap {
+  overflow: hidden;
+  position: relative;
+  width: 420px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-3.svg") no-repeat;
+}
+
+.company .animation_02_wrap {
+  overflow: hidden;
+  position: relative;
+  width: 115px;
+  height: 255px;
+  bottom: 239px;
+  left: 635px;
+}
+
+.company .animation_end_01 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-1.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.company .animation_end_02 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.company .animation_end_03 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-2.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.ani_02_top_bottom {
+  background: url("/instructions/certifications/03/icon_3.svg") no-repeat;
+  position: absolute;
+  width: 115px;
+  height: 255px;
+  -webkit-animation-name: move_ani_02; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani_02;
+  animation-duration: 2s;
+}
+
+.ani_02_content {
+  position: absolute;
+  bottom: 39px;
+  right: 20px;
+  text-align: center;
+}
+
+.ani_02_text_01 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #15376c;
+  z-index: 1;
+}
+
+.ani_02_text_02 {
+  display: flex;
+}
+
+.ani_02_text_03 {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #15376c;
+  margin-left: 2px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move_ani {
+  from {
+    left: -388px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes move_ani {
+  from {
+    left: -388px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move_ani_02 {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes move_ani_02 {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}

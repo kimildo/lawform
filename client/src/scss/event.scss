@@ -1,0 +1,610 @@
+
+.main-event-banner {
+    width: 100%;
+    height: 600px;
+    background-image: url('/images/event/happylaw/main-banner.jpg');
+    background-position: center;
+    > A {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.main-event-banner-mobile {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    > IMG {
+        width: 100%;
+    }
+}
+
+.event {
+    // 문서 구매 감사 이벤트
+    .thankyou {
+        font-family: "Noto Sans KR";
+        width: 100%;
+        height: 100%;
+        background-image: url('/images/event/thankyou/bg.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        overflow: auto;
+        > .intro {
+            width: 1050px;
+            margin: 147px auto 0;
+            text-align: center;
+            > img.sub-title {
+                margin-top: 17px;
+            }
+            > UL.box {
+                width: 700px;
+                margin: 25px auto 60px;
+                padding: 25px 110px 5px;
+                list-style: none;
+                text-align: left;
+                border: 1px solid #E5E5E5;
+                border-radius: 5px;
+                box-sizing: border-box;
+                font-size: 17px;
+                > LI {
+                    margin-bottom: 20px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        display: inline-block;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background-color: #B71A3C;
+                        position: absolute;
+                        top:10px;
+                        left:-13px;
+                    } 
+                    > LABEL {
+                        display: inline-block;
+                        width: 100px;
+                        height: 18px;
+                        font-weight: bold;
+                        border-right: 3px solid #000000;
+                        margin-right: 10px;
+                        line-height: 18px;
+                    }
+                    > DIV {
+                        display: inline-block;
+                        width: 360px;
+                        line-height: 18px;
+                    }
+                }
+            }
+            > UL.gifts {
+                width: 820px;
+                height: 225px;
+                list-style: none;
+                margin: 40px auto;
+                padding: 0;
+                > LI {
+                    width: 256px;
+                    height: 171px;
+                    margin: 0 8px;
+                    border-radius: 90px;
+                    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                    background-color: #f7f7f7;
+                    display: inline-block;
+                    vertical-align: top;
+                    position: relative;
+                    > DIV.gift {
+                        position: absolute;
+                        top: -15px;
+                        width: 100%;
+                        &.coffee {
+                            left: -63px;
+                        }
+                    }
+                    > DIV.circle {
+                        position: absolute;
+                        left:calc( 50% - 65px );
+                        bottom:-42px;
+                    }
+                }
+            }
+        }
+        > .storys {
+            width: 1050px;
+            margin: 100px auto 35px;
+            text-align: center;
+            > .storys-img {
+                margin-top: 55px;
+            }
+        }
+        > .event-forms {
+            width: 100%;
+            background-color: #FFFFFF;
+            padding-top: 45px;
+            padding-bottom: 1px;
+            text-align: center;
+            > .tip {
+                background-color: #123965;
+                color: #FFFFFF;
+                margin: 25px 0 20px;
+                padding: 10px 0;
+                font-size: 20px;
+                font-weight: 400;
+                > SPAN {
+                    font-size: 22px;
+                    font-weight: bold;
+                } 
+            }
+            > FORM {
+                width: 826px;
+                margin: 0 auto;
+                text-align: left;
+                > LABEL {
+                    width: 100%;
+                    margin: 20px 0 13px;
+                    display: block;
+                    font-size: 20px;
+                    color: #2D343D;
+                    > SPAN {
+                        font-size: 16px;
+                        display: block;
+                        margin-left: 25px;
+                    }
+                }
+                > TEXTAREA {
+                    width: 100%;
+                    height: 200px;
+                    display: block;
+                    resize: none;
+                    border: 1px solid #BFBFBF;
+                }
+                > BUTTON {
+                    margin: 30px auto 33px;
+                    width: 182px;
+                    height: 50px;
+                    display: block;
+                    border-radius: 25px;
+                    border: 0;
+                    background-color: #15376C;
+                    color: #FFFFFF;
+                    font-size: 22px;
+                }
+            }
+        }
+        .readme {
+            width: 100%;
+            background-image: url('/images/event/thankyou/bottom-skirt.svg');
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            > .box {
+                width: 950px;
+                margin: 0 auto;
+                padding: 50px 0 80px;
+                > .title {
+                    width: 200px;
+                    display: inline-block;
+                    vertical-align: top;
+                    font-size: 26px;
+                }
+                > UL {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    > LI {
+                        font-size: 18px;
+                        &::before {
+                            content: "-";
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+// 만원의 행복
+    .happylaw {
+        width: 100%;
+        background-color: #ffe26c;
+        overflow-y: auto;
+        // .mobile { 
+        //     display: none;
+        // }
+        DIV {
+            box-sizing: border-box;
+        }
+        .center {
+            width: 1080px;
+            margin: 0 auto;
+        }
+        .inline {
+            display: inline-block;
+            vertical-align: text-top;
+        }
+
+        h2 {
+            font-size: 36px;
+            width: 100%;
+            text-align: center;
+            color:#333333;
+            border-bottom: #ceccc6 solid 4px;
+            margin: 0;
+            > SPAN {
+                font-size: 45px;
+                color: #003366;
+            }
+        }
+
+        .top {
+            width: 100%;
+            min-width: 1200px;
+            height: 405px;
+            margin: 19px 0 24px;
+            padding: 28px 0;
+            background-color: #16376c;
+            .face {
+            }
+            .text {
+                margin-top:40px;
+                margin-left: 60px;
+                > .description {
+                    font-size: 25px;
+                    font-weight: 400;
+                    color:#FFFFFF;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .top-banner {
+            width: 100%;
+            min-width: 1200px;
+            height: 338px;
+            background-image: url('/images/event/happylaw/top-banner-bg.gif');
+            padding-left: 95px;
+            .text{
+                margin-top: 40px;
+                font-size: 23px;
+                line-height: 40px;
+                > P {
+                    margin: 0;
+                    .emphasis {
+                        color: #003366;
+                        &.title {
+                            font-size: 45px;
+                            font-weight: bold;
+                        }
+                        &.white {
+                            background-color: #FFFFFF;
+                            font-style: italic;
+                        }
+                    }
+                    &:first-child {
+                        font-size: 26px;
+                    }
+                }
+                
+
+            }
+            .user-img {
+                margin: 85px 0 0 15px;
+            }
+        }
+
+        .contents {
+            background-color: #e8e6df;
+            text-align: center;
+            padding: 60px 0; 
+            border-top:20px solid #003366;
+            
+            LABEL {
+                display: block;
+                width: 187px;
+                height: 55px;
+                line-height: 55px;
+                font-size: 28px;
+                font-weight: bold;
+                color: #FFFFFF;
+                background-color: #003366;
+                margin: 60px auto 40px;
+                border-radius: 28px;
+                text-align: center;
+            }
+            UL {
+                list-style: none;
+                margin: 0px auto 10px;
+                padding: 0;
+                > LI {
+
+                    display: inline-block;
+                    
+                    vertical-align: top;
+
+                    .image {
+                        padding-bottom: 20px;
+                        border-bottom: 2px solid #003366;
+                    }
+                    .text {
+                        margin-top: 15px;
+                        color: #666666;
+                        font-size: 18px;
+                    }
+                }
+                &#benefits {
+                    > LI {
+                        width: 260px;
+                    }
+                    > LI:first-child {
+                        margin-right: 30px;
+                    }
+                }
+                &#sequence {
+                    > LI {
+                        width: 212px;
+                        margin-left: 70px;
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                        > .image {
+                            position: relative;
+                            > .num {
+                                font-size: 18px;
+                                font-weight: bold;
+                                color:#003366;
+                                position: absolute;
+                                right:0;
+                                bottom:0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .categorys {
+            background-color: #cccccc;
+            width: 100%;
+            padding: 60px 0; 
+            margin: 0;
+            H2 {
+                border-bottom: #babab6 solid 4px;
+            }
+
+            ul {
+                margin: 40px auto;
+                padding: 45px 50px 28px;
+                list-style: none;
+                width: 100%;
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                box-sizing: border-box;
+                position: relative;
+                
+                > LI {
+                    display: inline-block;
+                    width: 490px;
+                    margin: 0 auto 18px;
+                    > DIV {
+                        width: 350px;
+                        height: 80px;
+                        border: 2px solid #003366;
+                        display: inline-block;
+                        margin-top: 2px;
+                        padding-top: 10px;
+                        text-align: center;
+                        color: #003366;
+                        font-weight: bold;
+                        font-size: 18px;
+                        > span.small {
+                            font-size: 15px;
+                        }
+                    }
+                    BUTTON {
+                        display: inline-block;
+                        vertical-align: top;
+                        background-color: #003366;
+                        border: 0;
+                        width: 120px;
+                        height: 83px;
+                        margin-left: 5px;
+                        color: #ffe26c;
+                        font-size: 20px;
+                        line-height: 25px;
+                        &.mobile {
+                            display: none;
+                        }
+                    }
+                    &.best:before {
+                        background-image: url('/images/event/happylaw/deco-best.svg');
+                        position: absolute;
+                        left: 48px;
+                        content: "";
+                        width: 49px;
+                        height: 49px;
+                    }
+                }
+            }
+        }
+        .reviews {
+            width: 100%;
+            min-width: 1200px;
+            margin: 0;
+            padding: 60px 0;
+            background-image: url('/images/event/happylaw/top-banner-bg.gif');
+            h2 {
+                font-size: 45px;
+                width: 100%;
+                margin: 0 auto;
+                color: #003366;
+                text-align: center;
+                border: 0;
+            }
+            > div.center > ul {
+                display: block;
+                width: 100%;
+                margin: 45px auto;
+                padding: 35px 0;
+                background-color: #FFFFFF;
+                border-radius: 20px;
+                list-style: none;
+                box-shadow: 0px 0px 11px -5px;
+                
+                > LI {
+                    text-align: center;
+                    font-size: 25px;
+                    margin-bottom: 85px;
+                    .stars {
+                        margin-bottom: 25px;
+                        IMG { 
+                            width: 24px;
+                            height: auto;
+                        }
+                    }
+                    .review {
+                        color: #333333;
+                        line-height: 45px;
+                        font-style: italic;
+
+                    }
+                    .doc {
+                        color: #999999;
+                    }
+                    &:last-child {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .copyright {
+            font-size:12px;
+            color: #FFFFFF;
+            background-color: #14376c;
+            padding: 30px 0;
+        }
+
+    }
+    .saramin {
+        background-color: #2D343D;
+        * {
+            box-sizing: border-box;
+        }
+        > .visual {
+            width: 100%;
+            background-image: url("/images/event/saramin/visual-background.svg");
+            background-color: #f1f2f7;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 710px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            .logo {
+                width: 400px;
+                margin: 53px auto 0;
+            }
+            .package {
+                width: 960px;
+                margin: 308px auto 0;
+                > h3 {
+                    font-size: 26px;
+                }
+                > .period {
+                    position: relative;
+                    font-size: 20px;
+                    margin-bottom: 25px;
+                    &::before {
+                        content:url("/images/event/saramin/dot-small.svg");
+                        position: absolute;
+                        top: -4px;
+                    }
+                    > span.label {
+                        margin-left: 10px;
+                        font-weight: bold;
+                        display: inline-block;
+                        height: 22px;
+                        padding-right: 23px;
+                    }
+                    > SVG {
+                        vertical-align: sub;
+                    }
+                    > span.date {
+                        padding-left: 23px;
+                    }
+                }
+            }
+        }
+        > .contents {
+            overflow: hidden;
+            padding-bottom: 50px;
+            width: 1200px;
+            margin: 0 auto;
+            border-bottom: 2px dashed #FFFFFF70;
+            > SECTION {
+                overflow: hidden;
+                width: 1200px;
+                height: 576px;
+                margin: 30px auto;
+                background-image: url("/images/event/saramin/section-bg.svg");
+                > H2 {
+                    > SPAN {
+                        display: inline-block;
+                        line-height: 15px;
+                        margin: 0 10px -10px 0;
+                        overflow: auto;
+                    }
+                    width: 270px;
+                    margin: 45px auto 60px;
+                    padding-bottom: 5px;
+                    font-size: 18px;
+                    font-weight: normal;
+                    border-bottom: 1px #BFBFBF solid;
+                }
+                > CENTER {
+                    
+                }
+                > DIV.button {
+                    width: 270px;
+                    margin: 56px auto 0;
+                }
+            }
+        }
+        > DIV.footer {
+            width: 950px;
+            margin: 62px auto 0;
+            color: #FFFFFF;
+            padding-bottom: 100px;
+            > H2 {
+                width: 190px;
+                font-size: 26px;
+                display: inline-block;
+                vertical-align: top;                
+            }
+            > UL.guides {
+                display: inline-block;
+                list-style: none;
+                font-size: 18px;
+                font-weight: 300;
+                padding-top: 5px;
+                > LI {
+                    &::before {
+                        content: " - ";
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.layer-payment {
+    > .event-banner {
+        position: absolute;
+        top: -140px;
+        left: 40px;
+    }
+}

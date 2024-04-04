@@ -1,0 +1,15 @@
+@media print{
+    /* write the page rules here */
+  }
+
+  @page {
+    size: A5;
+    background: yellow;
+    color: #CCC;
+  }
+
+
+  @page backmatter {
+    margin: 100mm 30mm;
+  background: yellow;
+}

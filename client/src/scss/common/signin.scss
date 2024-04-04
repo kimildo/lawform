@@ -1,0 +1,310 @@
+#signin {
+
+    overflow-x: hidden;
+
+    .wrap_signin {
+        width: 480px;
+        margin: 51px auto;
+        //height: 630px;
+        //margin: calc((100vh - 630px) / 2) auto 0;
+        background-color: #FFFFFF;
+        font-family: 'Noto Sans KR';
+        text-decoration: none;
+
+        &.no-sso {
+            margin-top: calc((100vh - 460px) / 2) !important;
+            height: 460px;
+        }
+    }
+
+    .wrap_signin .close {
+        padding-left: 176px;
+    }
+
+    .signin_header_sub {
+        margin-top: 20px;
+        color: #f00;
+    }
+
+    .wrap_signin_header {
+
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+
+        > .signin_header_name {
+            width: 100%;
+            display: block;
+            color: #15376c;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.48;
+            letter-spacing: 2px;
+            &.underline {
+                padding-bottom: 10px;
+                border-bottom: 2px solid;
+            }
+        }
+
+        > .signup_header_choose_title {
+            DIV {
+                text-align: left;
+                &:first-child {
+                    margin-top: 49px;
+                    color: #15376c;
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding: 0 0 8px 10px;
+                    border-bottom: 2px solid #1d365e;
+                }
+
+                &:last-child {
+                    color: red;
+                    margin-top: 8px;
+                    font-size: 14px;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        > .wrap_signin_header_tab_wrap {
+            margin-top: 45.5px;
+            width: 100%;
+
+            > UL {
+                margin: 0;
+                padding: 0;
+                color: #b8b8b8;
+                font-weight: normal;
+                font-size: 18px;
+
+                > LI {
+                    display: inline-block;
+                    border: 1px solid #e0e0e0;
+                    background-color: #f0f0f0;
+                    text-align: center;
+                    padding-top: 12px;
+                    width: 50%;
+                    height: 52px;
+                    cursor: pointer;
+                    box-sizing: border-box;
+
+                    &.active {
+                        color: #16376c;
+                        font-weight: bold;
+                        border: 1px solid #16376c;
+                        background-color: #FFF;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+    .wrap_signin_menu {
+
+        color: #7d7d7d;
+        margin-top: 50px;
+        padding-bottom: 52px;
+        border-bottom: 2px solid #e1e1e1;
+
+        > UL {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            font-size: 16px;
+
+            > LI {
+                width: 33%;
+                height: 24px;
+                text-align: center;
+                display: inline-block;
+                border-right: 1px solid #FFF;
+
+                &:not(:last-child) {
+                    border-right: 1px solid #7d7d7d;
+                }
+
+                > A {
+                    color: #7d7d7d;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+
+
+    .signin_header_symbol {
+        display: table-cell;
+        width: 215px;
+        vertical-align: middle;
+        padding: 60px 0 30px;
+    }
+
+
+    .wrap_signin_input {
+
+    }
+
+    .signin_input_id {
+        margin-top: 30px
+    }
+
+    .signin_input_pw {
+        margin-top: 20px
+    }
+
+    .signin_id_area, .signin_pw_area {
+        color: #7d7d7d;
+        border: solid 1px #7d7d7d;
+        padding-left: 10px;
+        font-size: 16px;
+        width: 480px;
+        height: 50px;
+        box-sizing: border-box;
+    }
+
+    .signin_signinbtn {
+        border-radius: 4px;
+        background-color: #15376c;
+        color: white;
+        margin: 5px auto;
+        padding: 10px 15px;
+        width: 480px;
+        height: 46px;
+        cursor: pointer;
+    }
+
+    .signin_submit {
+        border: 0;
+        font-size: 19px;
+        font-weight: bold;
+        background-color: #15376c;
+        color: white;
+        margin-top: 28px;
+        width: 100%;
+        height: 62px;
+        cursor: pointer;
+
+        &.button-white {
+            border: 1px solid #c3c3c3;
+            color: #8a8a8a;
+            background-color: #FFF;
+        }
+    }
+
+
+    .signin_find {
+        color: gray;
+        font-size: 15px;
+        margin: 15px 0 0 150px;
+        cursor: pointer;
+    }
+
+    .signin_or {
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    button.signin_naver, button.signin_kakao, button.signin_google {
+        width: 100%;
+        height: 60px;
+        border: none;
+        display: block;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    button.signin_naver {
+        background: url(/images/auth/naver.svg) no-repeat;
+        background-size: contain;
+    }
+
+    button.signin_kakao {
+        background: url(/images/auth/kakao.svg) no-repeat;
+        background-size: contain;
+    }
+
+    button.signin_google {
+        background: url(/images/auth/google2x.png) no-repeat;
+        background-size: contain;
+    }
+
+
+    .signin_fb {
+        border-radius: 4px;
+        background-color: #15376c;
+        color: white;
+        margin: 5px auto;
+        padding: 10px 15px;
+        width: 255px;
+        cursor: pointer;
+    }
+
+    .signin_signup {
+        //border-top: solid gray 1px;
+        margin: 20px 40px 0 40px;
+        padding: 28px 28px 0 0;
+        color: #5a6265;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .signin_social {
+        margin-top: 45px;
+
+        > #naverIdLogin, #kakao-login-btn {
+            display: none;
+        }
+    }
+
+    .signin_lawyer_wrap {
+        margin-top: 45px;
+        text-align: center;
+
+        > .signin_lawyer_header {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        > .signin_lawyer_info {
+            margin-top: 10px;
+            width: 100%;
+            font-size: 20px;
+
+            > A {
+                border: 1px solid #c3c3c3;
+                color: #8a8a8a;
+                text-decoration: none;
+                display: block;
+                padding: 15px 0;
+
+            }
+        }
+    }
+
+    .signin_input_err {
+        color: #ff0000;
+        font-size: 14px;
+        text-align: left;
+        height: 20px;
+        margin-top: 12.5px;
+        padding-left: 10px;
+        //padding: 12.5px 0 0 10px;
+    }
+
+    .signin_signup_link {
+        color: #15376c;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    a:visited + .signin_signup_link {
+        text-decoration: none;
+    }
+
+}

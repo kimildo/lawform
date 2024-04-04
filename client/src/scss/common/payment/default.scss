@@ -1,0 +1,413 @@
+.autoform_output_a4 {
+    
+}
+
+.payment-default {
+    display: block;
+    position: absolute;
+    width: 646px;
+    height: auto;
+    margin-left: -3px;
+    background-image: url("/images/common/payment/payment-pop-bg.png");
+    background-repeat: repeat-y ;
+    bottom: 2px;
+    z-index: 10;
+    > DIV.anchor {
+        width: 100%;
+        height: 25px;
+        background-image: url("/images/common/payment/payment-pop-anchor.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -25px;
+        > DIV.close {
+            display: block;
+            width: 80px;
+            margin: 0 auto;
+            position: static;
+            text-indent: -9990px;
+        }
+    }
+    > DIV.payment-options {
+        display: block;
+        > FIELDSET {
+            width: 580px;
+            display: block;
+            background-color: #FFFFFF;
+            border: 1px solid #EDEDED;
+            margin: 15px auto;
+            text-align: left;
+            > H4 {
+                font-size: 18px;
+                border-bottom: 1px solid #000000;
+                text-align: left;
+                text-indent: 5px;
+                margin-top: 0px;
+                margin-bottom: 5px;
+            }
+            > UL.options {
+                list-style: none;
+                margin: 0;
+                padding: 0 10px;
+                > LI {
+                    clear: both;
+                    border-bottom: 1px solid #EDEDED;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                    color: #707070;
+                    text-indent: 10px;
+                    > LABEL {
+                        
+                    }
+                    > SPAN {
+                        background-image: url("/images/common/questionmark-circle-blue.svg");
+                        background-repeat: no-repeat;
+                        width: 16px;
+                        height: 16px;
+                        text-indent: -9990px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    > DIV{
+                        display: inline-block;
+                        text-align: right;
+                        float: right;
+                        font-size: 16px;
+                        &.active {
+                            color : #000000;
+                        }
+                        > SPAN {
+                            font-size: 20px;
+                        }
+                        > DEL {
+                            font-size: 14px;
+                            margin-right: 10px;
+                            > SPAN {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            > UL.method {
+                list-style: none;
+                margin: 0;
+                padding: 0 10px;
+                text-align: left;
+                > LI {
+                    display: inline-block;
+                    width: 48%;
+                    text-align: left;
+                    text-indent: 10px;
+                }
+            }
+            &.promotion {
+                padding-top: 16px;
+                > LABEL {
+                    width: auto;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-left: 5px;
+                    margin-right: 40px;
+                    vertical-align: middle;
+                }
+                > INPUT {
+                    width: 320px;
+                    height: 40px;
+                    box-sizing: border-box;
+                    border: solid 1px #b2b2b2;
+                }
+                > BUTTON {
+                    width: 80px;
+                    height: 40px;
+                    background-color: #15376C;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    border: 0;
+                    border-radius: 2px;
+                    vertical-align: middle;
+                    margin-left: 13px;
+                }
+                > UL {
+                    margin-top: 5px;
+                    margin-left: 110px;
+                    list-style: none;
+                    > LI {
+                        font-size: 12px;
+                        color: #707070;
+                        &::before {
+                            content: "*";
+                            vertical-align: sub;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+
+        }
+        > DIV.price {
+            width: 600px;
+            margin: 0 auto;
+            color: #FF2E16;
+            > .text {
+                font-size: 18px;
+                padding-left: 2px;
+            }
+            > .num {
+                color: #FF2E16;
+                font-size: 18px;
+                font-weight: bold;
+                width: 470px;
+                > SPAN {
+                    font-size: 24px;
+                }
+            }
+        }
+        > DIV.plan,DIV.payment-document {
+            > BUTTON {
+                width: 100%;
+                height: 60px;
+                background-color: #15376C;
+                color:#FFFFFF;
+                font-size: 22px;
+            }
+        }
+    }
+
+
+    @media only screen and (max-device-width: 1023px) {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-image: url(/images/common/payment/payment-pop-bg.png);
+        background-repeat: repeat-y;
+        background-position: center;
+        border: none;
+        z-index: 2;
+        margin: 0;
+        > DIV.anchor {
+            width: 100%;
+            height: 25px;
+            display: block;
+            background-image: url(/images/common/payment/payment-pop-anchor.png);
+            background-position: center;
+            position: absolute;
+            top: -25px;
+        }
+        > DIV.payment-options {
+            > FIELDSET {
+                width: auto;
+                margin: 10px;
+                > UL.options {
+                    padding: 0;
+                    font-size: 14px;
+                    font-weight: normal;
+                    > LI {
+                        > DIV {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &.promotion {
+                    > INPUT {
+                        width: calc( 100% - 86px );
+                    }
+                    > BUTTON {
+                        margin-left: 5px;
+                    }
+                    > UL {
+                        margin-left: 0;
+                        padding-left: 0;
+                        > LI {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            > DIV.price {
+                width: 100%;
+                > DIV.text {
+                    width: 50%;
+                    display: inline-block;
+                    padding: 0;
+                }
+                > .num {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    &.show-is-startup {
+        padding: 15px;
+        background-color: #FAFAFA;
+        > DIV.title {
+            font-size: 18px;
+            font-weight: bold;
+            &::before{
+                content: "";
+                background-image: url('/images/common/questionmark-circle-blue.svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 23px;
+                height: 23px;
+                text-indent: -9990px;
+                display: inline-block;
+                vertical-align: sub;
+                margin-right: 4px;
+            }
+            > .close {
+                width: 16px;
+                height: 16px;
+                right: 18px;
+                top: 2px;
+            }
+        }
+        > SECTION {
+            background-color: #FFFFFF;
+            border: 2px solid #EDEDED;
+            margin-top: 9px;
+            > H5 {
+                font-size: 18px;
+                position: relative;
+                line-height: 20px;
+                text-align: left;
+                width: calc( 100% - 55px );
+                margin: 20px auto 10px;
+                padding-left: 9px;
+                z-index: 1;
+                &::before {
+                    content: "";
+                    width: 20px;
+                    height: 33px;
+                    background-color: #FFE872;
+                    display: block;
+                    position: absolute;
+                    z-index: -1;
+                    top: -8px;
+                    left: 0px;
+                }
+                > .sub-text {
+                    color: #4E4E4E;
+                    font-size: 14px;
+                    font-weight: normal;
+                    margin-left: 6px;
+                }
+            }
+            > .box {
+                position: relative;
+                > .balloon {
+                    position: absolute;
+                    bottom:-75px;
+                    right:38px;
+                }
+            }
+            > .for {
+                width: 100%;
+                display: inline-block;
+                color: #4E4E4E;
+                list-style: none;
+                margin-top: 20px;
+                margin-left: 0px;
+                > LI {
+                    text-align: left;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    &::before {
+                        content: "";
+                        display: inline-block;
+                        width: 20px;
+                        height: 16px;
+                        background: url('/images/plans/check.svg') no-repeat;
+                        vertical-align: bottom;
+                        margin-right: 10px;
+                    }
+                }
+                > div {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: left;
+                    padding-left: 130px;
+                    box-sizing: border-box;
+                    > h4 {
+                        font-size: 20px;
+                        margin: 15px 0;
+                        &::before {
+                            content: "";
+                            display: inline-block;
+                            width: 29px;
+                            height: 28px;
+                            background: url('/images/plans/check-circle.svg') no-repeat;
+                            vertical-align: bottom;
+                            margin-right: 10px;
+                        }
+                    }
+                    > div {
+                        font-size: 18px;
+                        font-weight: 100;
+                        margin-left: 35px;
+                        text-indent: -10px;
+                    }
+                }
+            }
+            > BUTTON {
+                margin-bottom: 15px;
+                width: 120px;
+                height: 33px;
+                background-color: #15376C;
+                color: #FFFFFF;
+                font-size: 15px;
+                padding: 0;
+                line-height: 33px;
+                > IMG {
+                    vertical-align: text-top;
+                    margin-left: 3px;
+                }
+            }
+        }
+        @media only screen and (max-device-width: 1023px) {
+            width: calc( 100% - 5px )!important;
+            height: auto !important;
+            left: 0 !important;
+            margin-top: 40px !important;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            border: 1px solid #C9C9C9 !important;
+            > SECTION {
+                > H5 {
+                    div.sub-text {
+                        font-size: 12px !important;
+                    }
+                }
+                > DIV.box {
+                    > IMG {
+                        width: 100%;
+                    }
+                    > DIV.balloon {
+                        bottom: -55px;
+                        right: -30px !important;
+                        > IMG {
+                            width: 75%;
+                        }
+                    }
+                }
+                > UL.for {
+                    padding-left: 5px;
+                    > LI {
+                        font-size: 12px !important;
+                        &::before {
+                            margin-right: 5px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

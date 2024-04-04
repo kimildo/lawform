@@ -1,0 +1,47 @@
+.doc-container {
+    font-family: 'Noto Sans KR';
+    display: block;
+    background-color: #e1e1e1;
+    position: absolute;
+    left: 0;
+    top: 122px;
+    bottom: 0;
+    right: 0;
+    overflow-y: hidden;
+    .sidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: inline-block;
+        width: 469px;
+        height: 100%;
+        background-color: #fff;
+        font-size: 0;
+        box-sizing: border-box;
+        z-index: 99;
+    }
+    .main-content {
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+
+    }
+    .sidebar-padd {
+        padding-left: 469px;
+    }
+}
+
+
+@media only screen and (max-device-width: 1023px) {
+
+    .doc-container {
+        .sidebar {
+            width: 100%;
+            > .sidebar-container {
+                width: 100%;
+            }
+        }
+    }
+
+}

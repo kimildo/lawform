@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705.5" height="77" viewBox="0 0 705.5 77">
+  <g id="그룹_1840" data-name="그룹 1840" transform="translate(-783.5 -1958)">
+    <rect id="사각형_470" data-name="사각형 470" width="131" height="43" transform="translate(811 1976)" fill="#f1f3f6"/>
+    <g id="그룹_1718" data-name="그룹 1718" transform="translate(796.193 2007.172) rotate(-90)">
+      <line id="선_12" data-name="선 12" y2="12.173" transform="translate(10.241 270.979)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="4"/>
+      <path id="패스_114" data-name="패스 114" d="M11.2,0V11.2H0Z" transform="translate(9.93 277.204) rotate(45)" fill="#707070"/>
+    </g>
+    <g id="그룹_1719" data-name="그룹 1719" transform="translate(862.521 2007.172) rotate(-90)">
+      <line id="선_12-2" data-name="선 12" y2="12.173" transform="translate(10.241 270.979)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="4"/>
+      <path id="패스_114-2" data-name="패스 114" d="M11.2,0V11.2H0Z" transform="translate(9.93 277.204) rotate(45)" fill="#707070"/>
+    </g>
+    <g id="그룹_1720" data-name="그룹 1720" transform="translate(981.193 2006.852) rotate(-90)">
+      <line id="선_12-3" data-name="선 12" y2="12.173" transform="translate(10.241 270.979)" fill="none" stroke="#707070" stroke-width="2" stroke-dasharray="4"/>
+      <path id="패스_114-3" data-name="패스 114" d="M11.2,0V11.2H0Z" transform="translate(9.93 277.204) rotate(45)" fill="#707070"/>
+    </g>
+    <text id="지급명령_계산" data-name="지급명령 계산" transform="translate(1159.5 2002)" fill="#707070" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">지급명령 계산</tspan></text>
+    <text id="서류작성" transform="translate(1278.5 2002)" fill="#707070" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">서류작성</tspan></text>
+    <text id="상담" transform="translate(1097.418 2002)" fill="#707070" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">상담</tspan></text>
+    <text id="법무법인_방문" data-name="법무법인 방문" transform="translate(977.5 2002)" fill="#707070" font-size="15" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">법무법인 방문</tspan></text>
+    <text id="일반_법무법인" data-name="일반 법무법인" transform="translate(819 2004)" fill="#707070" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">일반 법무법인</tspan></text>
+    <text id="최소_1주일" data-name="최소 
+1주일" transform="translate(1427.188 1992)" fill="#707070" font-size="19" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-19.618" y="0">최소 </tspan><tspan x="-22.895" y="25">1주일</tspan></text>
+    <g id="사각형_472" data-name="사각형 472" transform="translate(783.5 1958)" fill="none" stroke="#cecece" stroke-width="1">
+      <rect width="705.5" height="77" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="704.5" height="76" rx="3.5" fill="none"/>
+    </g>
+    <g id="그룹_1723" data-name="그룹 1723" transform="translate(1127.801 2006.915) rotate(-90)">
+      <line id="선_12-4" data-name="선 12" y2="40" transform="translate(9.815 214.2)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="4"/>
+      <path id="패스_114-4" data-name="패스 114" d="M14.245,0V14.245H0Z" transform="translate(9.842 240.843) rotate(45)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

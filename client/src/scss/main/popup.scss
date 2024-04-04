@@ -1,0 +1,18 @@
+.mainLayerPopup {
+  position: absolute;
+  top: 80px;
+  left: 20%;
+}
+.mainLayerPopup > .content {
+  font-size: 0;
+}
+.mainLayerPopup > .bottom {
+  font-size: 11px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: right;
+  padding-right: 10px;
+}
+.mainLayerPopup > .bottom  input[type='checkbox'] {
+  vertical-align: middle;
+}

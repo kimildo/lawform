@@ -1,0 +1,116 @@
+.lawyer-sale {
+    .big-title {
+        display: block;
+        color: #707070;
+        box-sizing: border-box;
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: 0.28px;
+    }
+    .small-title {
+        display: block;
+        font-size: 14px;
+        color: #707070;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+    .price {
+        font-size: 18px;
+        font-weight: 900;
+        color: #000;
+        margin-bottom: 5px;
+        span {
+            font-weight: normal;
+            font-size: 12px;
+            color: #707070;
+        }
+    }
+    .status {
+        font-size: 17px;
+    }
+}
+.layer-sale-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    display: inline-block;
+    z-index: 5;
+    .sale-popup-box {
+        font-size: 0px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
+        border: solid 1px #435062;
+        background-color: #fff;
+        .popup-header {
+            background-color: #15376c;
+            .popup-title {
+                font-size: 20px;
+                display: block;
+                text-align: center;
+                box-sizing: border-box;
+                padding: 15px 0px;
+                color: #fff;
+                font-weight: 900;
+            }
+        }
+        .popup-body {
+            box-sizing: border-box;
+            padding-top: 17px;
+            .row {
+                box-sizing: border-box;
+                padding-bottom: 14px;
+                .row-title,
+                .row-price,
+                .row-final-price {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                .row-title {
+                    width: 230px;
+                    text-align: right;
+                    font-size: 15px;
+                    box-sizing: border-box;
+                    padding-left: 40px;
+                    padding-right: 20px;
+                    line-height: 26px;
+                }
+                .row-price {
+                    border-left: 1px solid #15376c;
+                    font-size: 16px;
+                    padding-left: 20px;
+                    padding-right: 40px;
+                }
+                .row-final-price {
+                    font-size: 20px;
+                    color: #0050ce;
+                    font-weight: 900;
+                }
+            }
+            .dotted-line {
+                margin: 0px 30px;
+                display: block;
+                border-bottom: 1px dashed #15376c;
+            }
+        }
+    }
+}
+
+.datepicker-wrapper input, .select-type{
+    padding:6px;
+}
+
+
+@media only screen and (max-device-width: 1023px) {
+
+    .layer-sale-popup {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+}

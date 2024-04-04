@@ -1,0 +1,76 @@
+.legalnotice {
+    font-family: 'Noto Sans KR';
+    > .wrap {
+        max-width: 1010px;
+        margin: 200px auto 100px;
+        > H1 {
+            font-size: 57px;
+            font-weight: 200;
+            margin-bottom: 70px;
+        }
+        > UL.tabs {
+            border: none;
+            display: flex;
+            justify-content: space-between;
+            > LI {
+                width: 310px;
+                height: 80px;
+                border: 1px solid #CBCBCB;
+                border-radius: 5px;
+                background: #F7F7F7;
+                color:#D1D1D1;
+                line-height: 80px;
+                font-size: 32px;
+                font-weight: bold;
+                &:hover , &.active {
+                    border: 1px solid #000000;
+                    > A {
+                        color: #000000;
+                    }
+                }
+                > A {
+                    width: 100%;
+                    display: block;
+                    color: #D1D1D1;
+                }
+    
+            }
+        }
+        > .contents {
+            > ARTICLE {
+                text-align: justify;
+                > P {
+                    font-weight: 100;
+                    > OL {
+                        list-style: none;
+                        counter-reset: counter;
+                        padding-left: 30px;
+                        > LI {
+                            counter-increment: counter;
+                            text-indent: -30px;
+                            &::before {
+                                content: counter(counter);
+                                font-size: 9px;
+                                border: 1px solid #000;
+                                border-radius: 10px;
+                                display: inline-block;
+                                width: 14px;
+                                height: 14px;
+                                text-align: center;
+                                line-height: 14px;
+                                text-indent: 0;
+                                margin-right: 10px;
+                            }
+                            > OL {
+                                margin-left: -20px;
+                                > LI {
+                                    text-indent: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

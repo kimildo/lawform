@@ -1,0 +1,619 @@
+.payment_lawyer_contents .payment_modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    width: 464px;
+    height: 635px;
+    transform: (-50%, -50%);
+
+    .payment_header {
+        border-bottom: 1px solid #707070;
+        padding: 20px 0 20px 10px;
+
+        .header_title {
+            color: #15376c;
+            font-size: 22px;
+            line-height: 33px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .header_btn {
+            display: inline-block;
+            position: absolute;
+            top: 24.5px;
+            right: 20px;
+        }
+
+        .header_xbtn {
+            padding: 0;
+        }
+    }
+
+    .info {
+        font-size: 18px;
+        text-align: left;
+        height: fit-content;
+        padding: 26px 0 22.5px 25px;
+        border-bottom: 0.7px dashed #707070;
+
+        .info_title {
+            font-weight: bold;
+            //position:relative;
+            //top:26.5px;
+            //left:25px;
+            color: #15376c;
+            letter-spacing: 0.54px;
+            padding-right: 45px;
+        }
+
+        .info_content {
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 300px;
+            font-weight: 500;
+            vertical-align: middle;
+            color: #787878;
+        }
+    }
+
+    .option {
+        text-align: left;
+        padding: 22.5px 0 50px 25px;
+
+        .option_title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #15376c;
+            letter-spacing: 0.54px;
+            padding-right: 27px;
+        }
+
+        .option_select {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        select {
+            padding: 5px 6.5px;
+            width: 320px;
+            height: 32px;
+        }
+    }
+
+    .code {
+        text-align: left;
+        padding-left: 25px;
+
+        .code_title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #787878;
+            letter-spacing: 0.42px;
+            padding-right: 27px;
+        }
+
+        .code_section .code_input {
+            border: solid 1px gray;
+            border-radius: 4px;
+            padding: 0 10px;
+            width: 180px;
+            height: 30px;
+            margin-right: 14px;
+        }
+    }
+
+    .code .btn {
+        font-size: 14px;
+        line-height: 20px;
+        vertical-align: top;
+        margin: 0;
+        padding: 5px 14px;
+    }
+
+    .way {
+        text-align: left;
+        border-bottom: 1px solid #707070;
+        padding: 26px 0 26px 26px;
+
+        .way_title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #787878;
+            letter-spacing: 0.42px;
+            padding-right: 64px;
+
+        }
+
+        .way_content {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #464646;
+        }
+
+        .way_content input[type="radio"] {
+            width: 17.5px;
+            height: 17.5px;
+            vertical-align: bottom;
+            cursor: pointer;
+        }
+
+        .way_content #first {
+            margin-right: 70px;
+        }
+
+        .way_content label {
+            cursor: pointer;
+        }
+    }
+
+    .prices {
+        padding: 26px 0 24px 0;
+        margin-right: 40px;
+        align-items: stretch;
+    }
+
+    .prices table {
+        margin-left: auto;
+        border-collapse: unset;
+        border-bottom: 0;
+
+        tbody {
+            td {
+                padding-bottom: 5px;
+                text-align: right;
+            }
+
+            td:nth-child(1) {
+                width: 120px;
+                min-width: 120px;
+            }
+
+            td:nth-child(2) {
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 2px;
+                max-width: 2px;
+                min-width: 2px;
+                text-align: left;
+            }
+
+            td:nth-child(4) {
+                width: 100px;
+                min-width: 100px;
+            }
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #787878;
+
+        }
+    }
+
+    .price_total {
+        margin-right: 40px;
+        padding-top: 11px;
+        padding-bottom: 14px;
+        text-align: right;
+
+        .total_title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #545454;
+            letter-spacing: 0.42px;
+            padding-right: 20px;
+        }
+
+        .total_value {
+            display: inline-block;
+            width: 120px;
+            min-width: 120px;
+            font-size: 21px;
+            font-weight: 900;
+            text-align: right;
+            color: #15376c;
+        }
+    }
+
+    .pay_btn .btn {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 0.54px;
+        margin: 0;
+        padding: 9px 0 10px 0;
+        width: 100%;
+        height: stretch;
+        border: none;
+    }
+}
+
+.white_content .payment_modal hr {
+    width: 440px;
+    border: 0.7px dashed #707070;
+    margin: 0 auto;
+}
+
+/*
+.white_content .payment_modal.multiple_documents {
+    width: 464px;
+    height: unset !important;
+    border-radius: 0;
+}
+
+.white_content .payment_modal.multiple_documents > div.title {
+    color:#15376c;
+    font-size: 22px;
+}
+
+.white_content .payment_modal.multiple_documents > .xbtn {
+    padding-left: 140px;
+}
+*/
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    border-top: 1px solid #707070;
+}
+
+ul.tabs > li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background: linear-gradient(180deg, #ebebeb 45px, #fff 10px);
+    color: #bdbdbd;
+    display: inline-block;
+    height: 59px;
+    line-height: 45px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+ul.tabs > li.active {
+    color: #FFFFFF;
+    background-image: url(/detail_img/payment-tab-bg.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+
+}
+
+/*
+.payment_modal.multiple_documents .document {
+    color: #15376c;
+}
+
+.payment_modal.multiple_documents .single {
+    border-bottom: 1px dashed #707070;
+    padding-bottom: 20px;
+    margin: 0 15px 30px;
+}
+
+.payment_modal.multiple_documents .document .title {
+    color: #15376c;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    padding: 5px 0 10px 25px;
+    width:365px;
+}
+
+.payment_modal.multiple_documents .document .amount {
+    display: inline-block;
+}
+.payment_modal.multiple_documents  .multiSelector {
+    width: 100%;
+    height: 38px;
+    border-top: 1px dashed #707070;
+    border-bottom: 1px dashed #707070;
+    box-sizing: border-box;
+    background-color: #F1F3F6;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.payment_modal.multiple_documents  .multiSelector.active {
+    height: 160px;
+}
+
+.payment_modal.multiple_documents  .multiSelector .doclist {
+    overflow-y: scroll;
+    height: 120px;
+
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV.desc {
+    column-count: 1;
+    font-size: 11px;
+    font-weight: normal;
+    color:#787878;
+    padding: 10px 25px;
+    background-image: url(/detail_img/payment-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 415px 10px;
+    cursor: pointer;
+}
+
+.payment_modal.multiple_documents  .multiSelector.active > DIV.desc {
+    background-image: url(/detail_img/payment-arrow-up.svg);
+    background-position: 415px 13px;
+}
+.payment_modal.multiple_documents  .multiSelector > DIV.desc.package {
+    font-weight: bold;
+    color: #15376C;
+    text-align: center;
+    background: none;
+    text-decoration: underline;
+
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV {
+    column-count: 1
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV > label {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 0;
+    display: block;
+    // background-image:url(/common/line-dot.png);
+    // background-repeat:repeat-x;
+    // background-position-y: 13px;
+
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV > label > span {
+    background-color: #F1F3F6;
+
+}
+
+.payment_modal.multiple_documents  .multiSelector .documents_list.package {
+    font-size: 13px;
+    color: #787878;
+    background: none;
+}
+
+.payment_modal.multiple_documents  .multiSelector .documents_list  .title {
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: #787878;
+    padding: 0;
+    background-color: #F1F3F6;
+}
+.payment_modal.multiple_documents  .multiSelector .documents_list  .plus {
+    float: right;
+    margin: 0 0 0 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #F1F3F6;
+    color: #787878;
+}
+.payment_modal.multiple_documents  .multiSelector .documents_list  .price {
+    display: inline-flex;
+    background: none;
+    background-color: #F1F3F6;
+    width: unset;
+    height: unset;
+    border:0;
+    border-radius: 0;
+    padding: 0 0px;
+    margin: 0 auto;
+    color: #787878;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: normal;
+    float: right;
+    line-height: 24px;
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV > label > span:first-child {
+    padding:3px 0;
+}
+
+.payment_modal.multiple_documents  .multiSelector > DIV > label > span:nth-child(2) {
+    display: unset;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+
+
+.payment_modal.multiple_documents .promotion {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.payment_modal.multiple_documents .promotion .info {
+    font-size:12px;
+    display:inline-block;
+    border: none;
+    color:#787878;
+    width: 100px;
+}
+
+.payment_modal.multiple_documents .promotion .payPromotionCode_input {
+    width:100px;
+    height: 20px;
+}
+
+.payment_modal.multiple_documents .promotion .promotion_submit_btn {
+    width: 56px;
+    height: 22px;
+}
+
+.payment_modal.multiple_documents .promotion  > .caution {
+    font-size: 10px;
+    margin-left: 40px;
+    color: #787878;
+}
+.payment_modal.multiple_documents .way {
+    font-size:14px;
+    display:inline-block;
+    color:#787878;
+    padding: 0 0 0 40px;
+    vertical-align: top;
+}
+
+.payment_modal.multiple_documents .waycontent {
+    font-size:14px;
+    display:inline-block;
+    color:#787878;
+    width: 250px;
+    margin: -2px 0 15px 70px;
+    > .method {
+
+    }
+}
+
+.payment_modal.multiple_documents .waycontent label > span {
+    padding: 0;
+}
+.payment_modal.multiple_documents .waycontent label:first-child {
+    margin-right: 50px;
+}
+
+.payment_modal.multiple_documents .waycontent .MuiFormControlLabel-root {
+    margin-left: 0;
+}
+
+.payment_modal.multiple_documents .waycontent .MuiFormControlLabel-label {
+    font-size: 13px;
+}
+
+.payment_modal.multiple_documents .discount {
+    border-top: 1px solid #707070;
+    background-image: url(/detail_img/payment-discount-bg-arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#787878;
+    padding:10px 40px;
+    &.package {
+        background: none;
+        border:0;
+        clear: both;
+        > DIV {
+            display: block;
+            width: 240px;
+            float: right;
+            > LABEL {
+                width: 120px;
+                display: block;
+                float: left;
+            }
+            > span {
+                display: block;
+                width: 100px;
+                float: right;
+            }
+        }
+    }
+}
+.payment_modal.multiple_documents .discount div {
+    // text-align: right;
+    display: inline-block;
+}
+.payment_modal.multiple_documents .discount div > label {
+    width: 90px;
+    display: inline-block;
+    text-align: left;
+}
+
+.payment_modal.multiple_documents .discount div > span {
+    text-align: right;
+    display: inline-block;
+    width: 65px;
+}
+
+.payment_modal.multiple_documents .discount .full-price {
+    width: 200px;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.payment_modal.multiple_documents .discount .full-price LABEL {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.payment_modal.multiple_documents .discount .discount-per {
+    width: 192px;
+    text-align: left;
+}
+
+.payment_modal.multiple_documents .discount .discount-per > label {
+    width: 60px;
+    text-align: left;
+}
+
+.payment_modal.multiple_documents .discount .discount-per > span {
+    color: #FF1A1A;
+    font-size: 20px;
+}
+
+.payment_modal.multiple_documents .discount .minus {
+    width: 192px;
+    color: #15376c;
+    text-align: right;
+}
+
+.payment_modal.multiple_documents .discount .minus > span {
+    display: inline-block;
+}
+
+.payment_modal.multiple_documents .price {
+    background: none;
+    width: 90%;
+    border-top: #cdcdcd 2px dashed;
+    border-radius: 0;
+    padding: 0 15px;
+    margin: 0 auto;
+    color: #FF1A1A;
+    text-align: right;
+    box-sizing: border-box;
+    font-weight: bold;
+    &.package {
+        clear: both;
+    }
+}
+
+.payment_modal.multiple_documents .price  > LABEL{
+    display: inline-block;
+    color:#545454;
+}
+
+.payment_modal.multiple_documents .price > span {
+    font-size: 21px;
+    display: inline-block;
+    width: 95px;
+}
+
+.payment_modal.multiple_documents .pay_btn {
+    height: 46px;
+    background-color: #15376C;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+    color:#FFF;
+    cursor: pointer;
+
+}
+*/

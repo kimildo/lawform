@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.95" height="21.49" viewBox="0 0 18.95 21.49">
+  <g id="심볼_22" data-name="심볼 22" transform="translate(0.45 0.45)">
+    <g id="그룹_32" data-name="그룹 32" transform="translate(0 0)">
+      <path id="패스_21" data-name="패스 21" d="M615.54,598.648H602.715a.924.924,0,0,1-.95-.9V581.639l3.8-3.581h13.3a.923.923,0,0,1,.95.895v18.819a.9.9,0,0,1-.93.876Z" transform="translate(-601.765 -578.058)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="0.9"/>
+      <path id="패스_22" data-name="패스 22" d="M605.346,578.058v2.685a.9.9,0,0,1-.895.9h-2.686" transform="translate(-601.765 -578.058)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.9"/>
+      <path id="패스_1262" data-name="패스 1262" d="M0,0H8.082" transform="translate(7.203 8.5)" fill="#fff" stroke="#000" stroke-width="0.9"/>
+      <path id="패스_1263" data-name="패스 1263" d="M0,0H8.082" transform="translate(7.203 4.5)" fill="#fff" stroke="#000" stroke-width="0.9"/>
+      <line id="선_4" data-name="선 4" x2="12.519" transform="translate(2.765 12.5)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="0.9"/>
+      <line id="선_5" data-name="선 5" x2="12.519" transform="translate(2.765 16.5)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="0.9"/>
+    </g>
+  </g>
+</svg>

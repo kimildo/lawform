@@ -1,0 +1,18 @@
+.list {
+    box-sizing: border-box;
+    .list-option {
+
+    }
+    ul {
+        list-style: none;
+        li {
+            display: block;
+            box-sizing: border-box;
+            .item {
+                box-sizing: border-box;
+                position: relative;
+                display: block;
+            }
+        }
+    }
+}

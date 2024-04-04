@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="411.473" viewBox="0 0 412 411.473">
+    <defs>
+        <filter id="패스_2180" width="205" height="359" x="0" y="18" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="패스_2181" width="205" height="359" x="207" y="18" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1,.cls-10,.cls-17{fill:#fff}.cls-2{fill:#f2f2f2;opacity:.7}.cls-10,.cls-14,.cls-15,.cls-17,.cls-5,.cls-6{letter-spacing:.02em}.cls-4{font-size:22px;letter-spacing:.024em}.cls-10,.cls-4{font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700}.cls-13,.cls-14,.cls-15,.cls-5,.cls-6{fill:#435062}.cls-5{font-size:15px}.cls-13,.cls-5{font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR}.cls-15,.cls-6{font-size:18px}.cls-15,.cls-17,.cls-6{font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500}.cls-11{fill:#15376c}.cls-10{font-size:25px}.cls-13,.cls-17{font-size:12px}.cls-14{font-size:14px;font-family:NotoSansCJKkr-DemiLight,Noto Sans CJK KR;font-weight:300;opacity:.8}.cls-15{opacity:.5;text-decoration:line-through}
+        </style>
+    </defs>
+    <g id="가격표" transform="translate(-493.5 -214)">
+        <g filter="url(#패스_2180)" transform="translate(493.5 214)">
+            <path id="패스_2180-2" d="M0 0h169.266L187 18.47V341H0z" class="cls-1" transform="translate(8 24)"/>
+        </g>
+        <path id="사각형_497" d="M0 0h165v66H0z" class="cls-2" transform="translate(513 428)"/>
+        <path id="사각형_497-2" d="M0 0h165v66H0z" class="cls-2" transform="translate(513 500)"/>
+        <g filter="url(#패스_2181)" transform="translate(493.5 214)">
+            <path id="패스_2181-2" d="M0 0h169.266L187 18.47V341H0z" class="cls-1" transform="translate(215 24)"/>
+        </g>
+        <text id="_249_000원" fill="#ff2e16" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="26px" font-weight="800" letter-spacing="0.02em" transform="translate(532.5 309)">
+            <tspan x="0" y="0">289,000</tspan><tspan y="0" class="cls-4">원</tspan>
+        </text>
+        <g id="그룹_1719" transform="translate(-116 21)">
+            <text id="_1일_이내" class="cls-5" transform="translate(681.5 433)">
+                <tspan x="0" y="0">1일 이내</tspan>
+            </text>
+            <text id="_100_000원" class="cls-6" transform="translate(667.5 459)">
+                <tspan x="0" y="0">100,000원</tspan>
+            </text>
+        </g>
+        <text id="_149_000원" fill="#15376c" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="26px" font-weight="800" letter-spacing="0.02em" transform="translate(739.5 309)">
+            <tspan x="0" y="0">189,000</tspan><tspan y="0" class="cls-4">원</tspan>
+        </text>
+        <g id="긴급" transform="translate(240 63)">
+            <g id="사각형_484">
+                <path id="패스_2183" fill="#ff2e16" d="M0 0h100v49H0z" transform="translate(305 151)"/>
+                <path id="패스_2184" fill="none" stroke="#ff2e16" stroke-linejoin="round" stroke-width="2px" d="M1 1h98v47H1z" transform="translate(305 151)"/>
+            </g>
+            <text id="긴급-2" class="cls-10" transform="translate(331.75 185)">
+                <tspan x="0" y="0">긴급</tspan>
+            </text>
+        </g>
+        <g id="기본" transform="translate(446.5 63)">
+            <g id="사각형_484-2">
+                <path id="패스_2185" d="M0 0h100v49H0z" class="cls-11" transform="translate(305 151)"/>
+                <path id="패스_2186" fill="none" stroke="#15376c" stroke-linejoin="round" stroke-width="2px" d="M1 1h98v47H1z" transform="translate(305 151)"/>
+            </g>
+            <text id="기본-2" class="cls-10" transform="translate(331.75 185)">
+                <tspan x="0" y="0">기본</tspan>
+            </text>
+        </g>
+        <path id="사각형_497-3" d="M0 0h165v100H0z" class="cls-2" transform="translate(513 322)"/>
+        <g id="그룹">
+            <text id="계약서_검토_및_수정_" class="cls-13" transform="translate(544.64 397)">
+                <tspan x="0" y="0">계약서 검토 및 수정,</tspan>
+            </text>
+            <text id="직인_추가_서비스" class="cls-13" transform="translate(553.172 411)">
+                <tspan x="0" y="0">직인 추가 서비스</tspan>
+            </text>
+        </g>
+        <text id="_149_000원-2" class="cls-6" transform="translate(551.5 369)">
+            <tspan x="0" y="0">189,000원</tspan>
+        </text>
+        <text id="기본_가격" class="cls-14" transform="translate(566.619 346)">
+            <tspan x="0" y="0">기본 가격</tspan>
+        </text>
+        <g id="그룹_2151" transform="translate(0 2.5)">
+            <text id="플랫폼_이용료" class="cls-14" transform="translate(553.459 523.5)">
+                <tspan x="0" y="0">시스템 이용료</tspan>
+            </text>
+            <text id="_10_000원" class="cls-15" transform="translate(557.5 547.5)">
+                <tspan x="0" y="0">10,000원</tspan>
+            </text>
+        </g>
+        <path id="패스_2182" fill="none" stroke="#707070" stroke-dasharray="3" d="M3967 267.973h395.137" transform="translate(-3468.5 357)"/>
+        <path id="사각형_497-4" d="M0 0h165v66H0z" class="cls-2" transform="translate(720 428)"/>
+        <path id="사각형_497-5" d="M0 0h165v66H0z" class="cls-2" transform="translate(720 500)"/>
+        <g id="그룹_1719-2" transform="translate(91 21)">
+            <text id="_1일_이내-2" class="cls-5" transform="translate(681.5 433)">
+                <tspan x="0" y="0">3일 이내</tspan>
+            </text>
+            <text id="_100_000원-2" class="cls-6" transform="translate(707.287 459)">
+                <tspan x="0" y="0">-</tspan>
+            </text>
+        </g>
+        <path id="사각형_497-6" d="M0 0h165v100H0z" class="cls-2" transform="translate(720 322)"/>
+        <g id="그룹-2">
+            <text id="계약서_검토_및_수정_2" class="cls-13" transform="translate(751.64 397)">
+                <tspan x="0" y="0">계약서 검토 및 수정,</tspan>
+            </text>
+        </g>
+        <text id="_149_000원-3" class="cls-6" transform="translate(758.5 369)">
+            <tspan x="0" y="0">189,000원</tspan>
+        </text>
+        <text id="기본_가격-2" class="cls-14" transform="translate(773.619 346)">
+            <tspan x="0" y="0">기본 가격</tspan>
+        </text>
+        <g id="그룹_2152" transform="translate(207 2.5)">
+            <text id="플랫폼_이용료-2" class="cls-14" transform="translate(553.459 523.5)">
+                <tspan x="0" y="0">시스템 이용료</tspan>
+            </text>
+            <text id="_10_000원-2" class="cls-15" transform="translate(557.5 547.5)">
+                <tspan x="0" y="0">10,000원</tspan>
+            </text>
+        </g>
+        <g id="그룹_2126" transform="rotate(-10 3783.605 7331.764)">
+            <path id="패스_2189" d="M597.9 505.308l-15.727-5.652-15.62 5.906-9.87-9.06-18.446 1.424-2.057-10.673-17.619-3.34 6.163-10.172-13.3-7.442 13.162-7.656-6.351-10.071 17.554-3.625 1.858-10.7 18.47 1.125 9.7-9.218 15.727 5.652 15.62-5.906 9.87 9.06 18.446-1.424 2.057 10.673 17.619 3.34-6.163 10.172 13.3 7.442-13.162 7.656 6.351 10.071-17.554 3.624-1.858 10.7-18.47-1.124z" class="cls-11" transform="rotate(-2.98 -5169.617 -25307.588)"/>
+            <g id="그룹_1708" transform="rotate(-2 2888.287 -38146.382)">
+                <g id="그룹-3">
+                    <text id="런칭_프로모션" class="cls-17" transform="translate(542.81 68)">
+                        <tspan x="0" y="0">런칭 프로모션</tspan>
+                    </text>
+                    <text id="플랫폼_이용료_무료_" class="cls-17" transform="translate(527.882 86)">
+                        <tspan x="0" y="0">시스템 </tspan><tspan y="0" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700">이용료 무료!</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,410 @@
+.payment_order .section_01, .payment_order .section_02, .payment_order .section_03, .payment_order .section_04, .payment_order .section_05 {
+  padding: 70px 0;
+}
+
+.payment_order .menu {
+  height: 55px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.14);
+  border: solid 0.5px #d2d2d2;
+  background-color: #f1f3f6;
+  display: flex;
+  align-items: center;
+  min-width: 1200px;
+}
+
+.payment_order .menu .menu_wrap {
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.payment_order .menu .menu_wrap span {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  color: #435062;
+}
+
+.payment_order .menu .menu_wrap .detail_menu {
+  flex-basis: 33.3%;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  margin-right: 14px;
+  justify-content: center;
+  height: 55px;
+  border-bottom: solid 3px #15376c;
+  cursor: pointer;
+}
+
+.payment_order .menu .menu_wrap .service_menu {
+  flex-basis: 33.3%;
+  display: flex;
+  margin: 0 14px;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 55px;
+  cursor: pointer;
+}
+
+.payment_order .menu .menu_wrap .review_menu {
+  flex-basis: 33.3%;
+  display: flex;
+  margin-left: 14px;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 55px;
+  cursor: pointer;
+}
+
+.payment_order .menu .menu_wrap .vl {
+  border-left: 1px solid black;
+  height: 40px;
+}
+
+.payment_order .detail_section .section_01 .section_01_right .right_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 46px;
+  width: 800px;
+}
+
+.payment_order .detail_section .section_01 .section_01_right .right_content .sub_text {
+  -webkit-flex-basis: 380px;
+  flex-basis: 380px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.payment_order .detail_section .section_01 .section_01_right .right_content .sub_text img {
+  margin-right: 16px;
+}
+
+.payment_order .detail_section .section_01 .section_01_right .right_content .sub_text span {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #000000;
+}
+
+.payment_order .detail_section .section_02 .section_02_right .right_middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  padding: 50px 0 0;
+  flex-direction: column;
+}
+
+.payment_order .detail_section .section_02 .section_02_right .right_middle .chart_01 {
+  width: 184px;
+  height: 91px;
+  position: absolute;
+  top: 23px;
+  left: 9px;
+  cursor: pointer;
+}
+
+.payment_order .detail_section .section_02 .section_02_right .right_middle .chart_02 {
+  width: 184px;
+  height: 91px;
+  position: absolute;
+  top: 115px;
+  left: 9px;
+  cursor: pointer;
+}
+
+.payment_order .detail_section .section_02 .section_02_right .right_middle .chart_03 {
+  width: 184px;
+  height: 91px;
+  position: absolute;
+  top: 206px;
+  left: 9px;
+  cursor: pointer;
+}
+
+.payment_order .service_section .section_01_right {
+  margin-bottom: 40px;
+}
+
+.payment_order .service_section .section_01_right .right_content {
+  margin-top: 55px;
+  position: relative;
+  height: 315px;
+}
+
+.payment_order .service_section .section_01_right .right_content .content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  color: #000000;
+  height: 70px;
+  position: relative;
+}
+
+.payment_order .service_section .section_01_right .right_content .content .dot img {
+  margin: 0 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.payment_order .service_section .section_01_right .content span {
+  width: 55px;
+}
+
+.payment_order .service_section .section_01 .law_form {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.75;
+  color: #15376c;
+}
+
+.payment_order .service_section .amount {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.71;
+  letter-spacing: -1.1px;
+  color: #15376c;
+}
+
+.payment_order .service_section .dot {
+  width: 60px;
+  height: 68px;
+  border-right: dotted 2px #959595;
+  display: flex;
+}
+
+.payment_order .service_section .animation_wrap {
+  overflow: hidden;
+  position: relative;
+  width: 420px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-3.svg") no-repeat;
+}
+
+.payment_order .service_section .animation_02_wrap {
+  overflow: hidden;
+  position: relative;
+  width: 115px;
+  height: 255px;
+  bottom: 239px;
+  left: 635px;
+}
+
+.payment_order .service_section .animation_end_01 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-1.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.payment_order .service_section .animation_end_02 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.payment_order .service_section .animation_end_03 {
+  position: absolute;
+  width: 410px;
+  height: 27px;
+  background: url("/instructions/certifications/03/line-2.svg") no-repeat;
+  -webkit-animation-name: move_ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani;
+  animation-duration: 2s;
+}
+
+.payment_order .service_section .ani_02_top_bottom {
+  background: url("/instructions/certifications/03/icon_3.svg") no-repeat;
+  position: absolute;
+  width: 115px;
+  height: 255px;
+  -webkit-animation-name: move_ani_02; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: move_ani_02;
+  animation-duration: 2s;
+}
+
+.payment_order .service_section .ani_02_content {
+  position: absolute;
+  bottom: 39px;
+  right: 20px;
+  text-align: center;
+}
+
+.payment_order .service_section .ani_02_text_01 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #15376c;
+  z-index: 1;
+}
+
+.payment_order .service_section .ani_02_text_02 {
+  display: flex;
+}
+
+.payment_order .service_section .ani_02_text_03 {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #15376c;
+  margin-left: 2px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move_ani {
+  from {
+    left: -388px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes move_ani {
+  from {
+    left: -388px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move_ani_02 {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes move_ani_02 {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.payment_order .service_section .section_02 .right_middle {
+  margin: 50px 0 43px;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.4px;
+  color: #000000;
+
+}
+
+.payment_order .service_section .section_02 .right_middle div {
+  display: flex;
+  align-items: center;
+}
+
+.payment_order .service_section .section_02 .right_middle div img {
+  margin-right: 18px;
+}
+
+.payment_order .section_03 .right_middle {
+  margin: 30px 0 37.9px;
+  background: url('/instructions/img_01.jpg') no-repeat;
+  width: 706px;
+  height: 108.1px;
+  position: relative;
+}
+
+.payment_order .section_03 .right_middle .text_01 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.31);
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  letter-spacing: 0.54px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 42px;
+  left: 38px;
+}
+
+.payment_order .section_03 .right_middle .img_01 {
+  position: absolute;
+  bottom: 10px;
+  right: 22px;
+  cursor: pointer;
+}
+
+.payment_order .section_03 .right_bottom .text_02 {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #000000;
+}
+
+.payment_order .section_05 .section_05_right .sub_text{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}

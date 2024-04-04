@@ -1,0 +1,437 @@
+.wrap_autoform_save {
+    position: fixed;
+    z-index: 998;
+    height: 50px;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #F1F3F6;
+    text-align: left;
+    box-shadow: 0 -3px 10px 0px rgba(0, 0, 0, .5);
+
+}
+.wrap_autoform_save > H3 {
+    display: inline-block;
+    margin: 10px 60px 0;
+    font-size: 16px;
+}
+
+.wrap_autoform_save > .buttons {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.wrap_autoform_save > .buttons > BUTTON.hide {
+    display: none;
+}
+
+.wrap_autoform_save > .buttons > BUTTON.disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.wrap_autoform_save > .buttons  img {
+    margin-left: 4px;
+}
+
+.wrap_autoform_save > .buttons > .instructions {
+    position: absolute;
+    right: 80px;
+}
+
+.wrap_autoform_save > .buttons > .instructions .balloon {
+    position: absolute;
+    left: -15px;
+    top: 26px;
+}
+
+.wrap_autoform_save > .ie > button {
+    background-color: unset;
+    border: none;
+    line-height: 32px;
+}
+
+.wrap_autoform_save > .autoform_complete_btn {
+    position: absolute;
+    right: 22px;
+}
+
+.wrap_autoform_save > .autoform_complete_btn > BUTTON {
+    border:1px solid #4d5256;
+    border-radius: 5px;
+    padding:5px 15px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #435062;
+}
+
+
+.wrap_autoform_save > .autoform_complete_btn > BUTTON > SVG {
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+.wrap_autoform_save > .autoform_complete_btn > BUTTON > SPAN {
+    vertical-align: middle;
+}
+
+.wrap_autoform_save > .autoform_complete_btn > BUTTON:hover {
+    background-color: #16376c;
+}
+
+#confirmation-dialog-title {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #BFBFBF;
+    margin: 0 7.5px 25px;
+}
+#confirmation-dialog-title > H6 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #15376C;
+
+}
+
+
+.alert_edit  H2 {
+    color: #15376C;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.alert_edit  LABEL {
+    color: #435062;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.alert_edit  LABEL > img {
+    margin-right: 6px;
+}
+
+.alert_edit UL {
+    display: block;
+    border: .5px dashed #707070;
+    background-color:#F1F3F6;
+    margin: 10px;
+    padding: 25px 18px 25px 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #707070;
+}
+
+.alert_edit UL > LI {
+    margin-bottom: 36px;
+}
+
+.alert_edit UL > LI:last-child {
+    margin-bottom: 0px;
+}
+.alert_edit .buttons {
+    justify-content:center;
+    margin: 20px auto;
+}
+.alert_edit .buttons > BUTTON {
+    width: 120px;
+    height: 36px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    color: #808080;
+    font-size:15px;
+    padding: 0;
+}
+
+.alert_edit .buttons > BUTTON.ok {
+    background-color: #15376C;
+    color: #FFFFFF;
+}
+
+.autoform_cancel_btn {
+    z-index: 100;
+    position: absolute;
+    top:68px;
+    left: calc( 100% - 50% + 420px );
+    text-align: center;
+    cursor: pointer;
+}
+
+.autoform_cancel_btn > img {
+
+}
+
+.autoform_cancel_btn:hover::after {
+    content: "취소";
+    background-color: #15376C;
+    width: 40px;
+    height: 24px;
+    display: block;
+    font-size:12px;
+    color: #FFFFFF;
+    position: absolute;
+    left:0px;
+    padding: 2px 0;
+    box-sizing: border-box;
+}
+
+.autoform_editable_btn {
+    z-index: 100;
+    position: absolute;
+    top:60px;
+    left: calc( 100% - 50% + 470px );
+    text-align: center;
+    cursor: pointer;
+}
+
+.autoform_editable_btn > img{
+    display: block;
+    margin: 0 auto -3px;
+}
+
+.autoform_editable_btn:hover::after {
+    content: "문서편집";
+    background-color: #15376C;
+    width: 60px;
+    height: 24px;
+    display: block;
+    font-size:12px;
+    color: #FFFFFF;
+    position: absolute;
+    left:-10px;
+    padding: 2px 0;
+    box-sizing: border-box;
+}
+
+.autoform_editable_btn.editabled:hover::after {
+    content: "편집완료";
+}
+
+.autoform_output_a4 {
+
+}
+
+.autoform_output_a4 .layer-seal-wrapper {
+    position: relative;
+
+    >.layer-seal {
+        position: absolute;
+        overflow: hidden;
+        bottom: 22px;
+        right: 96px;
+        font-family: "HJ A", sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 19px;
+        letter-spacing: 2px;
+        color: red;
+        border: 3px solid red;
+        border-radius: 5px;
+        width: 55px;
+        padding: 1px 0 1px 3px;
+    }
+}
+
+.autoform_output_a4 > .bottom_layer {
+    position: absolute;
+    width: 336px;
+    height: 102px;
+    bottom: 150px;
+    background-color: rgba(0, 0, 0, .75);
+    color:#FFFFFF;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-left: 166px;
+    border-radius: 10px;
+    border: solid 1px #707070;
+}
+
+.autoform_output_a4 > .bottom_layer  A {
+    color:#FFF;
+    text-decoration: underline !important;
+}
+
+.autoform_output_a4 > .bottom_layer  A.doc_detail {
+    margin-left: 10px;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.input {
+    margin-top: 20px;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.payment {
+    text-align: left;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.payment > SPAN.notice {
+    font-size: 14px;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.payment > DIV.text {
+    text-align: center;
+    width: 315px;
+    margin: 5px auto 0;
+    color: #ffe872;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.payment > DIV.text > A.payment_open {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+}
+
+.autoform_output_a4 > .bottom_layer > DIV.payment > A.doc_price {
+
+
+}
+
+.autoform_output_a4 > .bottom_layer .loading {
+
+}
+
+.autoform_output_a4 > .bottom_layer > .loading > .loading-img {
+    display: block;
+    margin: 10px auto;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+.autoform_output_a4 > .layer-payment {
+    width: 640px;
+    height: 60px;
+    background-color: #15376C;
+    position: fixed;
+    bottom: 0;
+}
+
+.autoform_output_a4 > .layer-payment.animation {
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 3;
+}
+
+@-webkit-keyframes pay-bounce {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@keyframes pay-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.pay-bounce {
+    -webkit-animation-name: pay-bounce;
+    animation-name: pay-bounce;
+}
+
+
+.autoform_output_a4 > .layer-payment.active {
+}
+.autoform_output_a4 > .layer-payment > .infos {
+    float: left;
+    color: #FFF;
+    margin: 8px 0 0 44px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.autoform_output_a4 > .layer-payment > .infos > .doc-title {
+
+}
+
+.autoform_output_a4 > .layer-payment > .infos > .doc-price {
+
+}
+
+.autoform_output_a4 > .layer-payment > .infos > .doc-price > span {
+    font-size: 19px;
+    margin-right: 10px;
+    line-height: 15px;
+}
+
+.autoform_output_a4 > .layer-payment > .infos > .doc-price > span:first-child {
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.autoform_output_a4 > .layer-payment > .doc-sale-icon {
+    display: none !important;
+    float: left;
+    margin: 9px;
+}
+
+.autoform_output_a4 > .layer-payment > button {
+    width: 120px;
+    height: 36px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    color: #435062;
+    margin-top: 12px;
+    margin-right: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.peer-new-bar {
+    .new-alert-bar {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 55px;
+        background-color: #000;
+        color: #FFF;
+        opacity: 0.8;
+        text-align: center;
+
+        .new-alert-bar-contents {
+            margin-top: 10px;
+        }
+    }
+
+    .new-alert-icon {
+        position: absolute;
+        top: 1px;
+        left: 269px;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        padding: 1px;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        font-size: 16px;
+        line-height: 110%;
+    }
+}
+

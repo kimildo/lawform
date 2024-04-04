@@ -1,0 +1,192 @@
+
+.mypage {
+  *{
+	  font-family: 'Noto Sans KR';
+		box-sizing: border-box;
+	}
+	> .visual {
+		background-image: url('/images/common/visual-bg-mypage.jpg');
+	}
+	
+	.mypage_tabs {
+		font-size: 21px;
+		width: 100%;
+		margin: -60px auto 0;
+		padding-left: calc( ( 100% - 1112px ) / 2 );
+		list-style: none;
+		border-bottom: 5px solid #15376c;
+		> LI {
+			display: inline-block;
+			border-left: 1px solid #ced3d6;
+            border-right: 1px solid #ced3d6;
+            border-bottom: none;
+            box-sizing: border-box;
+            border-collapse: collapse;
+			cursor: pointer;
+			background-color: #FFFFFF;
+			border-radius: 10px 10px 0 0;
+			width: 200px;
+			height: 60px;
+			text-align: center;
+			&.active {
+                border: none;
+				background-color: #15376c;
+				> a {
+					color: #FFF;
+				}
+			}
+			> a {
+				display: block;
+				padding: 15px 30px;
+				color: #B2B2B2;
+				font-weight: bold;
+			}
+		}
+	}
+  
+  .mypage_tabs-addon {
+	  margin-top: 44px;
+	  width: 1076px !important;
+	  border-bottom: 3px solid #15376c;
+  }
+}
+
+.wrap_common {
+  height: 100%;
+}
+
+.wrap_common_mypage {
+  background-color: #e2e2e2;
+  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(220,220,220,1) 100%);
+}
+
+.common_container {
+  margin: 0px 16px 0px 152px;
+  width: 272px;
+  height: 100%;
+  border-radius: 4px 4px 0 0;
+  border: solid #ced3d6 1px;
+  background-color: #ffffff;
+}
+
+.profile {
+  width: 272px;
+  height: 195px;
+  border-radius: 4px 4px 0 0;
+  background-color: #435062;
+  text-align: center;
+}
+.profile_img {
+  width: 96px;
+  height: 96px;
+  margin: 32px 88px 7px 88px;
+  object-fit: contain;
+}
+
+.profile_name {
+  width: 61px;
+  height: 33px;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.profile_name_sub {
+  width: 21px;
+  height: 33px;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.profile_setting {
+  width: 19.5px;
+  height: 20px;
+  margin-left: 10px;
+  object-fit: contain;
+}
+
+.my_point {
+  width: 270px;
+  height: 96px;
+}
+
+.point_text {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4d5256;
+  margin: 18px 0px 0px 23px;
+}
+
+.point {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #292a2b;
+  margin-left: 23px;
+  float: left;
+}
+
+.common_menu {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 18px 0px 0px 23px;
+  float: left;
+}
+
+.right_arrow {
+  float: right;
+  margin-right: 11px;
+  margin: 0px 11px 0px 0px;
+}
+
+.right_arrow_common {
+  float: right;
+  margin-right: 11px;
+  margin: 20px 11px 0px 0px;
+}
+
+.my_document {
+  width: 272px;
+  height: 64px;  
+  color: #292a2b;
+}
+
+.my_purchase {
+  width: 272px;
+  height: 64px;  
+  color: #292a2b;
+}
+
+.favorite_document {
+  width: 272px;
+  height: 64px;
+}
+
+.question {
+  width: 272px;
+  height: 64px;  
+  color: #292a2b;
+}
+

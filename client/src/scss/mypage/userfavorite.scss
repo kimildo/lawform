@@ -1,0 +1,130 @@
+// $favorite_width: 848px;
+// $favorite_tab_width: 768px;
+// $border_color: #ced3d6;
+
+.wrap_userfavorite {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  // border: solid $border_color 1px;
+  margin-bottom: 30px;
+}
+
+.favorite_top {
+  margin: 35px 41px 0 41px;
+  float: left;
+  width: 768px;
+}
+
+.favorite_title {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4d5256;
+  text-align: left;
+  margin: 24px 0px 0px 40px;
+}
+
+.favorite_allnum {
+  float: left;
+  height: 58px;
+  display: block;
+  margin: 0px auto;
+}
+
+.wrap_favorite_allbtn {
+  float: right;
+  margin: 0px auto;
+}
+
+.favorite_allbtn {
+  display: block;
+  margin: 10px auto;
+}
+
+.favorite_category {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4d5256;
+  text-align: left;
+  margin: 24px 40px 0px 40px;
+  border: solid black 1px;
+  overflow: hidden;
+}
+
+div.scrollmenu {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.li {
+  cursor: pointer;
+  border: solid black 0.5px;
+  border-bottom: solid 3px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: "#292a2b";
+}
+
+div.scrollmenu span:hover {
+  color: #1f35c2;
+  border-color: #1f35c2;
+}
+.tab_right {
+  width: 36px;
+  height: 36px;
+  background: url(/mypage_img/tab_right_btn.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+  margin-top: -42px;
+  margin-left: 815px;
+}
+
+.tab_left {
+  width: 36px;
+  height: 36px;
+  background: url(/mypage_img/tab_left_btn.png) no-repeat;
+  position: absolute;
+  cursor: pointer;
+  margin-top: -45px;
+  margin-left: 5px;
+}
+
+.favorite_subcategory {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #878d91;
+  text-align: left;
+  margin: 24px 60px 0px 60px;
+  border: solid #878d91 1px;
+  overflow: hidden;
+}
+
+.wrap_favorite_item {
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.favorite_item {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 19px 40px 0;
+  width: 230px;
+  height: 334px;
+}

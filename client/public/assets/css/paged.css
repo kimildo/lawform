@@ -1,0 +1,28 @@
+@media print{
+    .pagedjs_page {
+    }
+    
+    
+    @page {
+        size: A4;
+    }
+}
+
+
+.textline {
+    width: 100%;
+    margin: 3px auto;
+    height: 0px;
+    border-bottom: 1px #000000 solid;
+    text-align: center;
+}
+
+.pagedjs_page {
+    border-bottom: 1px dotted #cccccc;
+    box-sizing: border-box;
+}
+
+.pagedjs_pagebox {
+    
+
+}

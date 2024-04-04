@@ -1,0 +1,323 @@
+.plans {
+    font-family: 'Noto Sans KR';
+    > .main {
+        background-color: #F0F2F7;
+        padding-top: 60px;
+        overflow: auto;
+        .red {
+            color: #DD1414;
+        }
+        > .product {
+            width: 1200px;
+            margin: 100px auto 0;
+            padding: 50px 0 25px;
+            background-color: #FFFFFF;
+            text-align: center;
+            > H1 {
+                font-size: 30px;
+                > DIV {
+                    font-size: 40px;
+                    font-weight: normal;
+                    > SPAN {
+                        color: #15376C;
+                    }
+                    &:first-child {
+                        color: #4E4E4E;
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+                    &:nth-child(2) {
+                        font-size: 30px;
+                    }
+                    &:nth-child(3) {
+                        font-size: 40px;
+                    }
+                }
+            }
+            > .tickets {
+                width: 1024px;
+                height: 156px;
+                margin: 0 auto;
+                border-top: 1px solid #CBCBCB;
+                border-bottom: 1px solid #CBCBCB;
+                box-shadow: 0px 10px 25px -20px;
+                > div {
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: top;
+                    box-sizing: border-box;
+                    position: relative;
+                    &:first-child {
+                        width: 280px;
+                        background-color: #15376C;
+                        color: #FFFFFF;
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-top: 31px;
+                        &::before , &::after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 10px;
+                            background-color: #FFFFFF;
+                            top:65px;
+                        }
+                        &::before {
+                            left: -10px;
+                        }
+                        &::after {
+                            right: -10px;
+                        }
+                    }
+                    &:nth-child(2) {
+                        width: calc( 325px + 138px );
+                        padding: 20px 0 0 0px;
+                        text-align: left;
+                        // background: url('/images/plans/line01.svg') no-repeat right;
+                        
+                        > div {
+                            &:first-child {
+                                font-size: 22px;
+                                font-weight: 600;
+                                text-align: center;
+                            }
+                            &:nth-child(2) {
+                                margin-top: 0px;
+                                font-size: 16px;
+                                text-align: center;
+                            }
+                        }
+                        > BUTTON {
+                            background-color: #C9C9C9;
+                            border-radius: 12px;
+                            border: 0;
+                            font-size: 13px;
+                            color: #FFFFFF;
+                            width: 141px;
+                            height: 24px;
+                            margin: 5px auto;
+                            display: block;
+                        }
+                    }
+                    // &:nth-child(3) {
+                    //     width: 192px;
+                    //     > DIV {
+                    //         &:first-child {
+                    //             margin-top: 29px;
+                    //             font-size: 18px;
+                    //             background-image: url('/images/plans/yellow-underline.svg');
+                    //             background-repeat: no-repeat;
+                    //             background-position: 30px 20px;
+                    //             height: 30px;
+                    //         }
+                    //         &:nth-child(2) {
+                    //             font-size: 28px;
+                    //             font-weight: bold;
+                    //             margin-top: 15px;
+                    //         }
+                    //     }
+                    // }
+                    &:last-child {
+                        width: 280px;
+                        background-color: #4E4E4E;
+                        color: #FFFFFF;
+                        padding: 24px 15px;
+                        > DIV {
+                            text-align: right;
+                            &:first-child {
+                                font-size: 18px;
+                                > SPAN {
+                                    font-size: 30px;
+                                    &::after {
+                                        content: "";
+                                        background-image: url('/images/plans/yellow-circle.svg');
+                                        background-repeat: no-repeat;
+                                        width: 90px;
+                                        height: 55px;
+                                        display: block;
+                                        position: absolute;
+                                        margin-top: -47px;
+                                        margin-left: 165px;
+                                        background-size: cover;
+                                    }
+                                }
+                            }
+                            &:nth-child(2) {
+                                font-size: 16px;
+                                font-weight: 100;
+                                margin-top: 10px;
+                                > SPAN {
+                                    background-image: url(/images/plans/yellow-underline.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: -5px 17px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            > .guide {
+                color: #666666;
+                font-size: 17px;
+                font-weight: 100;
+                text-align: right;
+                width: 1024px;
+                margin: 10px auto;
+                &::before {
+                    content: "*";
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+            }
+            > H3 {
+                display: inline-block;
+                color: #4E4E4E;
+                font-size: 24px;
+                font-weight: normal;
+                width: 302px;
+                height: 220px;
+                vertical-align: top;
+                background-image: url("/images/plans/shape-bullon.svg");
+                background-repeat: no-repeat;
+                text-align: left;
+                padding: 50px 30px;
+                box-sizing: border-box;
+                > span {
+                    font-weight: bold;
+                    background-color: #FFE872;
+                }
+
+            }
+            > .hr-dot {
+                margin-bottom: 41px;
+
+            }
+            > .for {
+                width: 480px;
+                display: inline-block;
+                color: #4E4E4E;
+                list-style: none;
+                margin-left: 70px;
+                > LI {
+                    text-align: left;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    &::before {
+                        content: "";
+                        display: inline-block;
+                        width: 20px;
+                        height: 16px;
+                        background: url('/images/plans/check.svg') no-repeat;
+                        vertical-align: bottom;
+                        margin-right: 10px;
+                    }
+                }
+                > div {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: left;
+                    padding-left: 130px;
+                    box-sizing: border-box;
+                    > h4 {
+                        font-size: 20px;
+                        margin: 15px 0;
+                        &::before {
+                            content: "";
+                            display: inline-block;
+                            width: 29px;
+                            height: 28px;
+                            background: url('/images/plans/check-circle.svg') no-repeat;
+                            vertical-align: bottom;
+                            margin-right: 10px;
+                        }
+                    }
+                    > div {
+                        font-size: 18px;
+                        font-weight: 100;
+                        margin-left: 35px;
+                        text-indent: -10px;
+                    }
+                }
+            }
+        }
+
+        > .form-bar {
+            width: 1200px;
+            margin: 20px auto 0;
+            background-color: #FFFFFF;
+            color: #000;
+            &:nth-child(3) {
+                > LABEL {
+                    height: 100px;
+                    padding-top: 30px;
+                }
+            }
+            > LABEL {
+                width: 300px;
+                display: inline-block;
+                background-color: #CBCBCB;
+                text-align: center;
+                font-size: 24px;
+                padding: 15px;
+                box-sizing: border-box;
+                vertical-align: top;
+            }
+            > .select-method {
+                box-sizing: border-box;
+                overflow: auto;
+                list-style: none;
+                padding: 18px 68px;
+                margin: 0;
+                display: inline-block;
+                font-size: 20px;
+                > LI {
+                    cursor: pointer;
+                    display: inline-block;
+                    margin-right: 75px;
+                    > IMG {
+                        vertical-align: middle;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            > .price {
+                display: inline-block;
+                padding: 18px 68px;
+                > div {
+                    text-align: left;
+                    &:first-child {
+                        font-size: 20px;
+                        font-weight: 100;
+                        > SPAN {
+                            text-decoration: line-through;
+                        }
+                    }
+                    &:nth-child(2) {
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        > .plan {
+            width: 1200px;
+            margin: 30px auto;
+            > BUTTON {
+                width: 234px;
+                height: 50px;
+                margin: 0 auto;
+                background-color: #15376C;
+                color: #FFFFFF;
+                display: block;
+                border-radius: 5px;
+                font-size: 22px;
+                font-weight: bold;
+                border: none;
+            }
+        }
+    }
+}

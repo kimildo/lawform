@@ -1,0 +1,120 @@
+// $background_color: #ffffff;
+// $main_color: #15376c;
+
+.wrap_findpw {
+	margin-top: calc( (100vh - 700px) / 2 ) !important;
+	width: 500px;
+	height:700px;
+	background-color: #FFFFFF;
+	> .findform {
+			> DIV.find_pw {
+			width: 350px;
+			margin: 0 auto;
+				.wrap_findpw_title {
+					display: block;
+					text-align: left;
+					color: gray;
+					padding-top: 0px;
+					margin-left: 0px;
+					font-size: 16px;
+				}
+				> .wrap_signup_personal_pw_section, .wrap_signup_personal_pw_section {
+					margin: 10px 0px;
+				}
+				.wrap_finduser_title {
+					margin-left: 0px;
+				}
+				.signup_personal_pw {
+					width: 100%;
+				}
+				.wrap_signup_personal_phone_btn {
+					text-align: center;
+				}
+				.wrap_findpw_btn {
+					display: block;
+				}
+			}
+	}
+}
+
+.wrap_findpw_section {
+  vertical-align: middle;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+
+.wrap_findpw_btn {
+  background-color: #15376c;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto 20px;
+  cursor: pointer;
+  font-size: 13px
+}
+
+.findreault { display: none;}
+
+a:visited + .findpw_signup_link {
+  text-decoration: none;
+}
+
+
+.findedList {
+
+}
+
+
+
+.wrap_findpw_findid {
+  height: 66px;
+  font-size: 30px;
+  padding-top: 13px;
+}
+
+.findpw_foot {
+  font-size: 12px;
+}
+
+.wrap_findpw .findPassword {
+  margin: 0px 52px 15px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.wrap_findpw .searched {
+  text-align: left;
+  margin-left: 48px;
+  font-size: 13px;
+} 
+
+.wrap_findpw .findedList {
+  width: 80%;
+  margin: 15px auto;
+  padding: 0;
+  display: table;
+  border-top: 2px solid #000;
+}
+.wrap_findpw .findedList > li {
+  display: table-row
+
+}
+
+.wrap_findpw .findedList > li > div {
+  width: 50%;
+  display: table-cell;
+  border-bottom: 1px solid #000;
+  line-height: 35px;
+}
+
+.wrap_findpw .findedList > li > div:first-child {
+  border-right: 1px solid #000;
+}
+
+.wrap_findpw .findedList > li:first-child {
+  font-weight: bold
+}
+

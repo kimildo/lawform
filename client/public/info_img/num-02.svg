@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E9E3FF" d="M54 108C24.177 108 0 83.823 0 54S24.177 0 54 0s54 24.177 54 54-24.177 54-54 54zm0-4c27.614 0 50-22.386 50-50S81.614 4 54 4 4 26.386 4 54s22.386 50 50 50z"/>
+        <text fill="#6E5FAB" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="40" font-weight="400">
+            <tspan x="31.2" y="68">02</tspan>
+        </text>
+    </g>
+</svg>

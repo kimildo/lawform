@@ -1,0 +1,109 @@
+.category {
+    font-family: 'Noto Sans Kr';
+    > .main {
+      > .visual {
+        background-image: url('/images/common/visual-bg-category.jpg');
+        > H1 {
+          color: #FFFFFF;
+          font-size: 32px;
+          > SPAN {
+            font-size: 38px;
+            color: #15376C;
+          }
+        }
+        > DIV {
+          color: #FFFFFF;
+        }
+      }
+    }
+	
+}
+.category .cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1080px;
+  text-align: left;
+}
+
+
+.categorys {
+  margin: 0 auto 35px;
+  padding: 0;
+  list-style: none;
+  width: 1060px;
+
+}
+
+.categorys  > LI {
+  display: inline-block;
+  width: 25%;
+  height: 66px;
+  font-size: 16px;
+  line-height: 66px;
+  color: #404040;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.categorys  > LI.active {
+  background-color: #15376C;
+  color:#FFFFFF;
+  font-weight: 400;
+}
+
+.category .cards > LI {
+  width: 340px;
+  height: 180px;
+  border:2px solid #E9E9E9;
+  display: inline-block;
+  text-align: left;
+  padding: 24px 25px;
+  position: relative;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-right: 18px;
+  margin-bottom: 12px;
+}
+
+.category .cards > LI > H4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.category .cards > LI > .description {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.category .cards > LI > a > BUTTON {
+  background-color: #FFFFFF;
+  border:1px solid #787878;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 19px;
+  width: 120px;
+  height: 32px;
+  font-size: 15px;
+  color: #787878;
+  cursor: pointer;
+}
+
+.category .cards > LI > .icon {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+
+.category .cards > LI.more {
+  border: 2px solid #9f9f9f;
+  background-color: #f6f6f6;
+}
+
+.category .cards > LI.more > H4 {
+  color:#15376C;
+  font-weight: 600;
+}

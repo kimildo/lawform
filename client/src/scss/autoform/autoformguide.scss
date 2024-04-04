@@ -1,0 +1,59 @@
+.wrap_autoform_guide {
+  text-align: center;
+}
+
+.autoform_guide {
+  width: 1138px;
+  height: 267px;
+  margin: 0 auto 30px;
+  padding: 32px 43px 30px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.autoform_guide_box {
+  width: 1052px;
+  height: 200px;
+  border-radius: 4px;
+  background-color: #f8fafb;
+  margin: 0px auto 0 auto;
+  border: dashed #ced3d6 1px;
+  border-radius: 3px;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.autoform_guide_title{
+    display: table;
+    margin: 17px 0 0 26px;
+}
+
+.autoform_guide_title_image{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.autoform_guide_title_text{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #535353;
+    padding-left: 6px;
+    display: table-cell;
+}
+
+.autoform_guide_content{
+    display: table;
+    margin: 6px 0 0 55px;
+    width: 1056px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #787878;
+}

@@ -1,0 +1,155 @@
+.question_header_1 {
+  width: 51px;
+}
+
+.question_header_2 {
+  width: 472px;
+}
+
+.question_header_3 {
+  width: 96px;
+}
+
+.question_header_4 {
+  width: 96px;
+}
+
+.question_header_5 {
+  width: 53px;
+}
+
+.question_content_1 {
+  width: 51px;
+}
+
+.question_content_2 {
+  width: 472px;
+  > span {
+    text-align: left;
+    width: 460px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.question_content_2 > div {
+  width: 390px;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+
+}
+
+
+.question_content_3 {
+  width: 96px;
+}
+
+.question_content_4 {
+  width: 96px;
+}
+
+.question_content_5 {
+  width: 53px;
+}
+
+.question_row {
+  height: 49px;
+  border-left: 0;
+  border-right: 0;
+}
+.question_row_hide {
+  height: 49px;
+  display: none;
+}
+.question_table_cell {
+  text-align: center;
+  display: table-cell;
+  padding: 0px 10px;
+}
+
+.wrap_question_detail {
+  border-bottom: solid 1px #ced3d6;
+  border-left: solid 1px #ced3d6;
+  border-right: solid 1px #ced3d6;
+}
+
+.question_detail {
+  margin: 16px 49px;
+  text-align: left;
+  display: flex;
+  > .q {
+    display: inline-block;
+    margin-top: 2px;
+    padding-right: 10px;
+    width: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #292a2b;
+  }
+  > .q_detail {
+    display: inline-block;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #292a2b;
+    white-space: pre-line;
+    margin-left: 11px;
+  }
+}
+
+.question_btn {
+  padding: 16px 0;
+  text-align: right;
+}
+
+.q_delete_btn {
+  margin: 10px 50px 0 0;
+}
+
+.q_insert_btn {
+  margin: 10px 20px 0 0;
+}
+
+.minus_btn {
+  margin-top: -15px;
+  position: absolute;
+  display: none;
+}
+
+.plus_btn {
+  margin-top: -15px;
+  position: absolute;
+}
+
+.hide_btn {
+  display: none;
+}
+
+.active_btn {
+  display: block;
+}
+
+.active_content {
+  display: contents;
+}
+
+.question_contents {
+  display: contents
+}
+.question_block {
+  display: block
+}
+
+.question_hide {
+  display: none
+}

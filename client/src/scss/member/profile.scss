@@ -1,0 +1,350 @@
+
+.profile-container {
+    display: block;
+    width: 1076px;
+    font-size: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding-top: 30px;
+
+    .profile-block {
+        display: inline-block;
+        width: 200px;
+        background-color: #f2f2f2;
+        margin-top: 15px;
+        margin-left: 30px;
+
+        .profile-img,
+        .profile-rating {
+            display: table-cell;
+            vertical-align: top;
+        }
+
+        .profile-img {
+            width: 200px;
+            box-sizing: border-box;
+            padding: 30px;
+            text-align: center;
+
+            .img-wrapper {
+                display: block;
+                border: 2px solid #c7cfdc;
+                position: relative;
+                width: 125px;
+                height: 125px;
+                border-radius: 60px;
+                margin: 0px auto;
+
+                img {
+                    width: 125px;
+                    height: 125px;
+                    border-radius: 60px;
+                }
+
+                .img-change-btn {
+                    background-color: #c9c9c9;
+                    box-sizing: border-box;
+                    padding: 3px 5px;
+                    position: absolute;
+                    bottom: -10px;
+                    text-align: center;
+                    color: #000;
+                    left: 43px;
+                    font-size: 14px;
+                    label{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .name {
+                display: block;
+                box-sizing: border-box;
+                padding-top: 17px;
+                font-size: 23px;
+                color: #435062;
+                text-align: center;
+
+                span {
+                    font-size: 18px;
+                    box-sizing: border-box;
+                    padding-left: 6px;
+                }
+            }
+        }
+
+        .profile-rating {
+            box-sizing: border-box;
+            padding-top: 60px;            
+
+            .work-count {
+                display: inline-block;
+                font-size: 20px;
+                box-sizing: border-box;
+                padding-left: 10px;
+                color: #435062;
+            }
+
+            .review {
+                display: block;
+                ul{
+                    padding-left:20px;
+                }
+                .stars {
+                    display: inline-block;
+                    color: #ced3d6;
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                    padding-right: 20px;
+                    height:fit-content;
+                    .star {
+                        font-size: x-large;
+                        vertical-align:top;
+                        display: inline-block;
+                        color: gray;
+                    }
+                    .star:last-child {
+                        margin-right: 0;
+                    }
+                    .star:before {
+                        content:'\2605';
+                    }
+                    .star.on {
+                        color: gold;
+                    }
+                    .star.half:after {
+                        content:'\2605';
+                        color: gold;
+                        position: absolute;
+                        margin-left: -24px;
+                        width: 12.5px;
+                        overflow: hidden;
+                    }
+                }
+                .score {
+                    border-right: 1px solid #435062;
+                    padding-top: 4px;
+                    padding-right: 40px;
+                    font-size:20px;
+                    color: #435062;
+                    font-size: 20px;
+                    font-weight: 900;
+
+                }
+
+                .count {
+                    padding-top: 4px;
+                    display: inline-block;
+                    font-size: 20px;
+                    color: #435062;
+                    box-sizing: border-box;
+                    padding-left: 40px;
+                }
+                .review-info{
+                    display: flex;
+                    padding-bottom:20px;
+                }
+
+                .review-content{
+                    font-size:14px;
+                    padding-bottom:5px;
+                }
+            }
+
+        }
+    }
+
+    .information-container {
+        background-color: #f2f2f2;
+        margin-top: 26px;
+        box-sizing: border-box;
+        padding: 24px 0px;
+        .information-block {
+            display: block;
+            background-color: #fff;
+            width: 924px;
+            box-sizing: border-box;
+            margin: 0px auto 22px auto;
+            padding-bottom: 18px;
+            .information-header {
+                font-size: 20px;
+                color: #000;
+                display: block;
+                box-sizing: border-box;
+                padding: 18px 29px 0px 29px;
+                font-weight: 900;
+            }
+            .information-body {
+                box-sizing: border-box;
+                padding-left: 180px;
+                .clear-out {
+                    width: 100%;
+                    padding-right: 182px;
+                    box-sizing: border-box;
+                    .signup-group {
+                        padding: 0px;
+                        .personal-info-data {
+                            width: 258px;
+                        }
+                        input {
+                            width: 100%;
+                            width: 258px;
+                        }
+                    }
+                }
+                .input-row {
+                    display: table;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding-bottom: 40px;
+                    &:last-child {
+                        padding-bottom: 0px;
+                    }
+                    .title {
+                        display: table-cell;
+                        color: #434343;
+                        font-size: 16px;
+                        width: 100px;
+                        vertical-align: top;
+                        box-sizing: border-box;
+                        padding-top: 10px;
+                    }
+                    .input-wrapper {
+                        display: table-cell;
+                        box-sizing: border-box;
+                        padding-right: 182px;
+                        vertical-align: top;
+                        textarea, input {
+                            width: 100%;
+                            display: inline-block;
+                            border-radius: 2px;
+                            border: solid 1px #e6e6e6;
+                            box-sizing: border-box;
+                            padding: 8px;
+                            font-size: 16px;
+                            &:focus {
+                                border: solid 1px #888888;
+                            }
+                            &:placeholder {
+                                color: #e6e6e6;
+                            }
+                        }
+                        textarea {
+                            min-height: 100px;
+                        }
+                    }
+
+                    .layer-seal-wrapper {
+                        position: relative;
+
+                        >.layer-seal {
+                            position: absolute;
+                            overflow: hidden;
+                            top: 0;
+                            left: 0;
+                            font-family: "HJ A", sans-serif;
+                            font-size: 16px;
+                            font-weight: 900;
+                            line-height: 19px;
+                            letter-spacing: 2px;
+                            color: red;
+                            border: 3px solid red;
+                            border-radius: 5px;
+                            width: 66px;
+                            padding: 1px 0 1px 3px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .form-option {
+        display: block;
+        box-sizing: border-box;
+        padding-top: 29px;
+        padding-bottom: 29px;
+        text-align: center;
+        .save-btn {
+            width: 120px;
+            height: 40px;
+            font-size: 18px;
+            color: #fff;
+            border: solid 1px #435062;
+            background-color: #15376c;
+        }
+    }
+
+    @media only screen and (max-device-width: 1023px) {
+
+        padding: 0 !important;
+
+        &.lawyer-contract-wrap {
+            margin: 0 !important;
+        }
+
+        > .information-container {
+
+            background-color: #FFF;
+            margin-top: 0;
+            padding: 0;
+
+            > .information-block {
+                width: 100%;
+                margin: 28px auto 0 auto;
+                padding: 0;
+
+                .personal-info-data {
+                    display: block;
+                }
+
+                >.profile-block {
+                    width: 100%;
+                    margin: 0 0 18px;
+
+                    >.profile-img {
+                        display: block;
+                        padding: 10px;
+                        margin: 0 auto;
+                    }
+                }
+
+                >.information-header {
+                    padding: 0 18px;
+                    margin-bottom: 20px;
+                }
+
+                >.information-body {
+                    padding: 0 18px !important;
+
+                    >.signup-container {
+                        padding: 0;
+                        &.clear-out {
+                            padding: 0;
+                        }
+                    }
+
+                    .clear-out {
+                        padding-right: 18px;
+                    }
+                    .input-row {
+
+                        padding-bottom: 10px;
+                        > .input-wrapper {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-device-width: 1023px) {
+    .signup-container.lawyer-contract-review.container-blog.contents {
+        background-color: #FFF !important;
+    }
+}
+

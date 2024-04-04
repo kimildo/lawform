@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.238" height="71.238" viewBox="0 0 71.238 71.238">
+  <defs>
+    <filter id="패스_570" x="12.998" y="36.287" width="27.305" height="13.451" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="패스_571" x="12.998" y="38.996" width="47.188" height="17.225" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="패스_572" x="34.369" y="40.745" width="5.768" height="5.795" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="선_27" x="39.668" y="35.069" width="4.5" height="9.311" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="선_28" x="36.418" y="35.69" width="4.5" height="7.154" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-5"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_36" x="27.104" y="15.935" width="21.566" height="21.566" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-6"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1775" data-name="그룹 1775" transform="translate(-372.881 -365.881)">
+    <circle id="타원_18" data-name="타원 18" cx="35.619" cy="35.619" r="35.619" transform="translate(372.881 365.881)" fill="#435062" opacity="0.6"/>
+    <g id="그룹_597" data-name="그룹 597" transform="translate(387.129 384.316)">
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#패스_570)">
+        <path id="패스_570-2" data-name="패스 570" d="M1015.977,479.881h12.431a1.609,1.609,0,0,1,.746.183l8.384,4.374a2.315,2.315,0,0,1,1.244,2.053h0a2.315,2.315,0,0,1-3.311,2.09L1028,485.02" transform="translate(-1001.73 -442.34)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#패스_571)">
+        <path id="패스_571-2" data-name="패스 571" d="M1015.977,490.957h5.811l11.9,5.144a11.087,11.087,0,0,0,9.25-.207l14.281-6.949a2.368,2.368,0,0,0,1.123-3.1h0a2.368,2.368,0,0,0-3.079-1.209l-12.255,5.168c-2.952,1.246-5.907,1.681-9.178-.255h0" transform="translate(-1001.73 -444.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#패스_572)">
+        <path id="패스_572-2" data-name="패스 572" d="M1050.634,487.111l.19.1a2.311,2.311,0,0,1,1.078,1.2" transform="translate(-1015.02 -445.12)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#선_27)">
+        <line id="선_27-2" data-name="선 27" y2="4.811" transform="translate(40.92 36.32)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#선_28)">
+        <line id="선_28-2" data-name="선 28" y2="2.654" transform="translate(37.67 36.94)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14.25, -18.44)" filter="url(#타원_36)">
+        <g id="타원_36-2" data-name="타원 36" transform="translate(29.6 18.44)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="7.283" cy="7.283" r="7.283" stroke="none"/>
+          <circle cx="7.283" cy="7.283" r="8.283" fill="none"/>
+        </g>
+      </g>
+      <g id="그룹_588" data-name="그룹 588" transform="translate(17.974 3.81)">
+        <path id="패스_573" data-name="패스 573" d="M1054.455,461.7c0,.072-.007.114-.021.125a.328.328,0,0,1-.142.017h-1.228q-.25,1.021-.484,2.032t-.483,2.034a.415.415,0,0,1-.061.174.406.406,0,0,1-.179.022h-.347a.406.406,0,0,1-.179-.022.4.4,0,0,1-.061-.174l-.924-4.066h-1.13q-.252,1.021-.479,2.027t-.467,2.028a.487.487,0,0,1-.06.179.331.331,0,0,1-.179.027h-.326a.367.367,0,0,1-.185-.027.4.4,0,0,1-.066-.179l-.935-4.055h-1.24a.285.285,0,0,1-.136-.017.3.3,0,0,1-.016-.136v-.153a.3.3,0,0,1,.016-.136.286.286,0,0,1,.136-.017h1.131q-.153-.652-.3-1.332t-.3-1.343c-.037-.137-.046-.217-.028-.239s.092-.033.223-.033h.207a.437.437,0,0,1,.207.027.507.507,0,0,1,.076.2l.609,2.718h1.61q.152-.673.31-1.359t.332-1.369a.468.468,0,0,1,.077-.191.4.4,0,0,1,.2-.027h.38a.4.4,0,0,1,.2.027.42.42,0,0,1,.065.191l.62,2.728h1.62q.152-.684.321-1.375t.321-1.376a.4.4,0,0,1,.06-.174.409.409,0,0,1,.179-.022h.261c.108,0,.17.009.184.027s.011.078-.01.179l-.663,2.74h1.141a.33.33,0,0,1,.142.017c.014.01.021.057.021.136Zm-5.817.142h-1.457q.184.793.359,1.533t.359,1.533Zm1.609-.458q-.12-.51-.228-.967t-.229-.979q-.109.468-.229.973t-.228.973Zm2.153.458h-1.435q.184.793.359,1.538t.358,1.539Z" transform="translate(-1045.126 -458.437)" fill="#435062" stroke="#435062" stroke-miterlimit="10" stroke-width="0.25"/>
+      </g>
+    </g>
+  </g>
+</svg>

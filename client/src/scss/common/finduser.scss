@@ -1,0 +1,144 @@
+#find-user-info {
+
+    > .wrap_finduser {
+        width: 480px;
+        margin: 51px auto 30px;
+        background-color: #FFFFFF;
+        font-family: 'Noto Sans KR';
+        text-decoration: none;
+
+        > .signup_form {
+            .find_button {
+                margin-top: 60px;
+                text-align: center;
+                > button {
+                    font-family: 'Noto Sans KR';
+                    width: 100%;
+                    height: 62px;
+                    box-sizing: border-box;
+                    border: none;
+                    background-color: #16376c;
+                    color: #FFF;
+                }
+            }
+        }
+
+        > .find-reault {
+
+            margin-top: 20px;
+
+            > .find-text {
+                > SPAN {
+                    color: #7d7d7d;
+                    display: block;
+                    text-align: center;
+                    padding: 0 10px;
+                    &:last-child {
+                        color: red;
+                        text-align: right;
+                    }
+                }
+            }
+
+            > .finded-list {
+                width: 100%;
+                height: 150px;
+                overflow-y: scroll;
+                border: solid 1px #e6e6e6;
+                padding: 10px 20px 10px 30px;
+                box-sizing: border-box;
+            }
+
+            button.wrap_finduser_btn {
+                font-family: 'Noto Sans KR';
+                width: 100%;
+                height: 62px;
+                box-sizing: border-box;
+                border: none;
+                background-color: #16376c;
+                color: #FFF;
+                margin-bottom: 10px;
+            }
+
+
+        }
+
+        > .find-footer {
+            width: 100%;
+            height: 156px;
+            background-color: #f7f7f7;
+            box-sizing: border-box;
+            text-align: center;
+            padding-top: 18px;
+            margin-top: 42px;
+
+            > SPAN {
+                color: #7d7d7d;
+                display: block;
+                font-size: 14px;
+                &:first-child {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+
+    .wrap_find_header {
+
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+
+        > .find_header_name {
+            width: 100%;
+            display: block;
+            color: #15376c;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.48;
+            letter-spacing: 2px;
+        }
+
+        > .find_header_tab_wrap {
+            margin-top: 45.5px;
+            width: 100%;
+
+            > UL {
+                margin: 0;
+                padding: 0;
+                color: #b8b8b8;
+                font-weight: normal;
+                font-size: 18px;
+
+                > LI {
+                    display: inline-block;
+                    border: 1px solid #e0e0e0;
+                    background-color: #f0f0f0;
+                    text-align: center;
+                    padding-top: 12px;
+                    width: 50%;
+                    height: 52px;
+                    cursor: pointer;
+                    box-sizing: border-box;
+
+                    &.active {
+                        color: #16376c;
+                        font-weight: bold;
+                        border: 1px solid #16376c;
+                        background-color: #FFF;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+
+

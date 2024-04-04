@@ -1,0 +1,197 @@
+.instructions {
+  font-family: 'Noto Sans KR';
+}
+
+.instructions .color_15376c {
+  color: #15376c;
+}
+
+.instructions .wrap {
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 5px auto 35px;
+}
+
+.instructions .fixed_icon_wrap {
+  // display: none !important;
+  position: fixed;
+  bottom: 45px;
+  right: 40px;
+  z-index: 3;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.instructions .fixed_icon_wrap .close_box {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  right: 8px;
+  cursor: pointer;
+}
+
+.instructions .top_img {
+  position: relative;
+  height: 460px;
+  object-fit: contain;
+  background-size: 1920px 100%;
+  min-width: 1160px;
+}
+
+.instructions .top_img .image_content {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.instructions .top_img .image_content .left_content {
+  float: left;
+  margin-top: 72px;
+}
+
+.instructions .top_img .image_content .left_content .top_bread_crumb {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.42px;
+  color: #4e4e4e;
+}
+
+.instructions .top_img .image_content .left_content .img_text_1 {
+  height: 56px;
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: 0.76px;
+  color: #000000;
+}
+
+.instructions .top_img .image_content .left_content .img_text_2 {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: 0.4px;
+  color: #000000;
+  margin-top: 27px;
+  white-space: pre;
+}
+
+.instructions .top_img .image_content .left_content .subImage_content {
+  display: flex;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.instructions .top_img .image_content .left_content .subImage_content img {
+  margin-right: 19.9px;
+}
+
+.instructions .top_img .image_content .left_content .subImage_content > span {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #000000;
+}
+
+.instructions .top_img .image_content .right_content {
+  float: right;
+  margin-top: 72px;
+  background: url('/instructions/certifications/box.svg') no-repeat center center;
+  width: 254.3px;
+  height: 282.9px;
+  text-align: center;
+ 
+  // > DIV:first-child {
+  //   padding-top:59px;
+  //   position: relative;
+  //   .event-banner {
+  //     position: absolute;
+  //     top:-75px;
+  //     left:0;
+  //   }
+  // }
+}
+
+.instructions .top_img .image_content .right_content .text_1 {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  text-align: left;
+  color: #ffffff;
+}
+
+.instructions .top_img .image_content .right_content .text_2 {
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: -5px;
+}
+
+.instructions .top_img .image_content .right_content .text_3 {
+  font-size: 21px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.42px;
+  color: #ffffff;
+  margin: 25px 35px 0 0;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+.instructions .top_img .image_content .right_content .text_4 {
+  font-size: 31px;
+  font-weight: 500;
+  letter-spacing: -1.38px;
+  margin: -10px 35px 0 0px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.instructions .section_01, .instructions .section_02, .instructions .section_03, .instructions .section_04, .instructions .section_05 {
+  display: flex;
+  padding: 70px 0 30px;
+  border-bottom: solid 0.5px #d2d2d2;
+  height: auto;
+}
+
+.instructions .section_01_left, .instructions .section_02_left, .instructions .section_03_left, .instructions .section_04_left, .instructions .section_05_left {
+  white-space: pre;
+  min-width: 205px;
+  width : 205px;
+  margin: 0 125px 0 80px;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: -1.05px;
+  text-align: left;
+  color: #959595;
+}
+
+.instructions .section_01_right .right_header, .instructions .section_02_right .right_header, .instructions .section_03_right .right_header, .instructions .section_04_right .right_header, .instructions .section_05_right .right_header {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: -0.48px;
+  color: #000000;
+}

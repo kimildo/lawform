@@ -1,0 +1,204 @@
+.category_review { 
+    width: 1076px;
+    margin: 0 auto;
+}
+.category_review > .title {
+    padding:0 0 0 10px;
+    margin-bottom: 15px;
+}
+.category_review > .title > h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #15376C;
+    margin-bottom: 0px
+}
+.category_review > .title > .description {
+    font-size: 15px;
+    font-weight: bold;
+    color: #707070;
+}
+.category_review > .contents > SELECT {
+    width: 237px;
+    height: 38px;
+    appearance: none;
+    border-radius: 0;
+    border:1px solid #707070;
+    background-color: #FFF;
+    padding: 5px 30px 5px 10px;
+    font-size: 13px;
+    color: #707070;
+    margin: 15px 15px 15px 10px;
+    background-image: url("/common/down-arrow-b.svg");
+    background-repeat: no-repeat;
+    background-position: 212px 12px;
+}
+
+.category_review > .contents > .reviews {
+    border-color: #707070;
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    padding: 20px;
+}
+
+.category_review > .contents > .reviews > .review {
+    border-bottom: 1px solid #707070;
+    color:#707070;
+    padding-bottom: 20px;
+}
+
+.category_review > .contents > .reviews > .review:last-child {
+    border-bottom: none;
+}
+
+.category_review > .contents > .reviews > .review > .info{
+    padding:15px 15px 10px;
+    border-bottom: 1px dashed #707070;
+}
+
+.category_review > .contents > .reviews > .review > .info > h5 {
+    font-size : 16px;
+    margin: 0;
+}
+
+.category_review > .contents > .reviews > .review > .info > .stars{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.category_review > .contents > .reviews > .review > .info > .regdate {
+    float: right;
+    margin-top: 10px;
+    font-size:13px;
+}
+
+.category_review > .contents > .reviews > .review > .content {
+    padding: 15px;
+}
+
+.category_review > .contents > .reviews > .review > .content > .write {
+    margin: 15px auto 0;
+}
+
+.category_review > .contents > .reviews > .review > .content > .write > .email {
+    color: #C4C4C4;
+    font-size: 13px;
+}
+.category_review > .contents > .reviews > .review > .content > .write > .btn_fold {
+    font-size: 12px;
+    float: right;
+    margin-top: 5px;
+}
+
+.category_review > .contents > .reviews > .review > .reply {
+    background-color: #F1F1F1;
+    padding: 20px 30px;
+}
+
+
+.category_review > .contents > .reviews > .review > .reply > .replier {
+    padding-bottom: 20px;
+}
+
+.category_review > .contents > .reviews > .review > .reply > .replier > IMG {
+    vertical-align: middle;
+}
+
+.category_review > .contents > .reviews > .review > .reply > .content {
+    font-size: 14px;
+}
+
+.category_review > .write > SELECT {
+    width: 237px;
+    height: 38px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 1px solid #707070;
+    background-color: #FFF;
+    padding: 5px 30px 5px 10px;
+    font-size: 13px;
+    color: #707070;
+    margin: 15px 0;
+    background-image: url(/common/down-arrow-b.svg);
+    background-repeat: no-repeat;
+    background-position: 212px 12px;
+}
+
+.category_review > .write > TEXTAREA {
+    width: 1055px;
+    height: 200px;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.category_review > .write  .stars {
+    height: 25px;
+    margin: 5px;
+}
+
+.category_review > .write > BUTTON {
+    cursor: pointer;
+    border: 0;
+    background-color: #15376C;
+    border-radius: 3px;
+    color:#FFF;
+    padding: 5px 30px;
+    font-size: 18px;
+    margin: 20px 0 30px;
+    float: right;
+    
+}
+
+.category_review > .write > H3 {
+    font-size: 18px;
+    color: #707070;
+    margin: 30px 5px 0px;
+}
+.category_review > .write > H3 > span {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.category_review {
+
+    .selectScore {
+        border: 1px solid #a9a9a9;
+        display: inline-block;
+        width: 250px;
+        height: 38px;
+        margin-left: 15px;
+        box-sizing: border-box;
+        background-image: url(/common/down-arrow-b.svg);
+        background-repeat: no-repeat;
+        background-position: 225px 12px;
+        position: relative;
+        vertical-align: top;
+        margin-top: 14px;
+    }
+    
+    .starSelector {
+        margin: -1px;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        background-color: #FFFFFF;
+        width: 250px;
+        border: 1px solid #a9a9a9;
+        box-sizing: border-box;
+        font-size: 13px;
+        top:37px;
+    }
+    
+    .starSelector > LI:hover {
+        background-color: #1e90ff;
+        color: #FFFFFF;
+    }
+    
+    .starSelector > LI > ul.stars {
+        display: inline-block;
+        vertical-align: sub;
+    }
+
+}

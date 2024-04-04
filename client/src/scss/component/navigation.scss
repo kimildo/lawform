@@ -1,0 +1,22 @@
+.tab-submenu {
+    display: block;
+    font-size: 0px;
+    background-color: #15376c;
+    .menu-item {
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px 15px;
+        font-weight: 100;
+        cursor: pointer;
+        font-weight: 100;
+        a {
+            color: #fff;
+        }
+    }
+    .menu-item-active {
+        font-weight: 400;
+        text-decoration: underline;
+    }
+}

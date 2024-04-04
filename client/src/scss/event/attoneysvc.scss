@@ -1,0 +1,191 @@
+.attoney-service {
+    color:#000000;
+    padding-bottom: 20px;
+    left: calc(50% - 325px); 
+    width: 650px;
+    > .closes {
+        padding: 13px;
+        text-align: right;
+    }
+
+    > .title {
+        text-align: center;
+        height: 139px;
+        width: 509px;
+        margin-left: 71px;
+        padding: 0;
+        > img {
+            width: 509px;
+        }
+    }
+
+    > .box {
+        text-align: center;
+        > img {
+            width: 611px;
+        }
+    }
+
+    > .content-box {
+        margin: 0 0 45px 19px;
+        width: 612px;
+
+        > .content-button {
+            margin-top: 27px;
+            text-align: center;
+            > .title {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            > .button {
+                width: 259px;
+                height: 36px;
+                margin: 14px auto 0;
+                > A > IMG {
+                    cursor: pointer;
+                    width: 259px;
+                }
+            }
+        }
+    }
+
+    > .content {
+        margin-bottom: 50px;
+        > h4 {
+            font-size: 18px;
+            text-align: center;
+        }
+        > button.form-open {
+            width: 407px;
+            height: 50px;
+            margin: 0 auto;
+            font-size: 18px;
+            display: block;
+            background-color: #FFA131;
+            position: relative;
+            > IMG {
+                margin-left: 10px;
+            }
+        }
+        > FORM {
+            width: 90%;
+            display: block;
+            margin: -25px auto 25px;
+            border: #707070 1px solid;
+            border-radius: 13px;
+            padding: 50px 33px 10px;
+            > DIV {
+                > LABEL {
+                    width: 90px;
+                    display: inline-block;
+                    text-align: right;
+                    font-size: 16px;
+                }
+                > input {
+                    width: 340px;
+                    height: 50px;
+                    font-size: 18px;
+                    margin: 10px 20px 10px 50px;
+                    border-radius: 3px;
+                    border: 1px solid #707070;
+                    padding: 3px;
+                }
+            }
+            > .agree {
+                padding: 10px 12px;
+                border-top: #c8c8c8 dashed 2px;
+                margin-top: 15px;
+                font-size: 14px;
+                > LABEL {
+                    width: auto;
+                    display: inline-block;
+                    text-align: right;
+                    font-size: 14px;
+                }
+                > input {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0;
+                }
+                > a {
+                    display: inline-block;
+                    float: right;
+                    margin-top: 5px;
+                    text-decoration: underline !important;
+                }
+            }
+            > .buttons {
+                > BUTTON {
+                    background-color: #FFA131;
+                    display: block;
+                    margin: 0 auto;
+                    font-size: 17px;
+                    font-weight: 500;
+                    padding-top: 1px;
+                }
+            }
+        }
+    }
+}
+
+
+// 1024px and down
+@media only screen and (max-device-width: 1023px) {
+    body {
+        overflow: auto !important;
+    }
+    .attoney-service {
+        width: 100%;
+        left: 1%;
+        margin-top: 0;
+        overflow-y: scroll;
+        height: 100%;
+        > .box {
+            > img {
+                width: 100%;
+            }
+        }
+        > .content {
+            > H4 {
+                font-size: 3.5vw;
+            }
+            > button.form-open {
+                width: 70vw;
+                border: 0;
+                border-radius: 3px;
+            }
+            > FORM {
+                width: 75vw;
+                > DIV {
+                    > LABEL {
+                        text-align: left;
+                        margin-left: 0px;
+                    }
+                    > input {
+                        width: 100%;
+                        margin: 10px 0 10px 0;
+                    }
+                }
+                > .agree {
+                    > LABEL {
+                        margin-left: 0;
+                    }
+                    > input {
+                       margin-left: 0;
+                    }
+                    > a {
+                        
+                    }
+                }
+                > .buttons {
+                    > button {
+                        height: 40px;
+                        border: 0;
+                        border-radius: 3px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

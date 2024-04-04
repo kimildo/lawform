@@ -1,0 +1,363 @@
+.solution-report {
+
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border: solid 1px #707070;
+    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    SECTION {
+        font-size: 14px;
+    }
+
+    > .report-header {
+        width: 100vw;
+        max-width: 900px;
+        height: 48px;
+        background-color: #15376c;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        color: #ffffff;
+        padding: 10px 0 0 20px;
+    }
+
+    > .report-contents {
+
+        padding: 50px;
+
+        > .report-header-contents {
+
+            DIV {
+                margin: 0 auto;
+            }
+
+            .report-logo {
+                width: 90px;
+                height: 90px;
+            }
+
+            .report-head-info {
+                font-size: 11px;
+                text-align: center;
+                margin-top: 30px;
+
+                SPAN {
+                    display: block;
+                }
+            }
+
+            .report-head-warn {
+                width: 100%;
+                margin-top: 24px;
+                border-radius: 3px;
+                border: dashed 1px #b2b2b2;
+                background-color: #f2f2f2;
+                padding: 20px 25px;
+                font-size: 10px;
+                color: #4e4e4e;
+                line-height: 18px;
+                text-align: justify;
+            }
+        } // end of report-header-contents
+
+        > .report-contents-result {
+
+            margin-top: 45px;
+
+            OL, UL {
+                padding: 0;
+            }
+
+            OL.root-group {
+                list-style: upper-roman;
+                margin-left: 40px;
+
+                > LI {
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 32px;
+
+                    > UL.company-info {
+                        list-style: disc;
+                        margin: 16px;
+
+                        > LI {
+                            font-size: 12px;
+                            font-weight: normal;
+                            margin-bottom: 5px;
+                        }
+                    }
+
+                    > OL.result-group {
+                        margin: 16px;
+
+                        .divided {
+                            height: 1px;
+                            margin-bottom: 18px;
+                        }
+
+                        .report-table {
+                            > TABLE {
+                                width: 100%;
+                                border-collapse: collapse;
+
+                                THEAD, TFOOT {
+                                    background-color: #f0f6ff;
+                                }
+
+                                TH,TD {
+                                    height: 26px;
+                                    border: solid 1px #c9c9c9;
+                                    vertical-align: middle;
+                                    text-align: center !important;
+                                    font-size: 12px;
+                                    &.empty-row {
+                                        height: 90px;
+                                    }
+                                }
+                            }
+
+                        }
+                        .report-table-desc {
+                            font-size: 10px;
+                            font-weight: normal;
+                            line-height: 18px;
+                        }
+
+
+                        > LI {
+                            margin-bottom: 24px;
+
+                            > .title {
+                                margin-bottom: 10px;
+                            }
+
+                            > .result-graph {
+                                margin: 30px 0 0 0;
+                                padding: 20px;
+                                border: solid 1px #c9c9c9;
+                            }
+
+                            > .desc {
+                                margin-bottom: 10px;
+                                font-size: 10px;
+                                font-weight: normal;
+                                line-height: 18px;
+                                text-align: justify;
+                                > P {
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    letter-spacing: 0.24px;
+                                }
+
+                                > SPAN.bold {
+                                    font-weight: bold;
+                                }
+
+                                > SPAN.blue {
+                                    font-weight: bold;
+                                    color: #0050ce;
+                                }
+
+                                > SPAN.red {
+                                    font-weight: bold;
+                                    color: #ff2e16;
+                                }
+
+                                > .depth-1 {
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    letter-spacing: 0.24px;
+                                    padding-left: 19px;
+                                }
+
+                                > .depth-2 {
+                                    padding-left: 36px;
+                                    margin-bottom: 20px;
+                                    font-size: 11px;
+                                    > P {
+                                        letter-spacing: 0.24px;
+                                        margin: 10px 0 0 0;
+                                    }
+                                    .answer-detail-analysis {
+                                        padding-left: 22px;
+
+                                        > .detail-analysis-title {
+                                            margin: 10px 0;
+                                            &.detail-analysis-question {
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        > .detail-analysis-remark {
+                                            margin: 0 0 6px 10px;
+                                        }
+
+                                        > .detail-analysis-desc {
+                                            border-radius: 3px;
+                                            border: dashed 1px #b2b2b2;
+                                            background-color: #f2f2f2;
+                                            padding: 8px;
+                                            P {
+                                                &:first-child {
+                                                    // font-weight: bold;
+                                                }
+                                                > ul {
+                                                    font-weight: bold;
+                                                    color: #0050CE;
+                                                    > LI {
+                                                        &::before {
+                                                            content: "- ";
+                                                            display: inline;
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            &.blue {
+                                                border: dashed 1px #b2b2b2;
+                                                background-color: #f0f6ff;
+                                            }
+                                            &:empty {
+                                                text-align: center;
+                                                padding: 35px 8px;
+                                                &::before {
+                                                    content: "해당 사항 없음";
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+    }
+    .comma-list {
+        > span {
+            &::after {
+                content: ", ";
+            }
+            &:last-child {
+                &::after {
+                    content: ""
+                }   
+            }
+        }
+    }
+
+    .slash-list {
+        > span {
+            &::after {
+                content: "/ ";
+            }
+            &:last-child {
+                &::after {
+                    content: ""
+                }   
+            }
+        }
+    }
+    P.theme-title {
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-image: url('/images/solution/checkbox_off.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            vertical-align: sub;
+        }
+        &.on {
+            &::before {
+                background-image: url('/images/solution/checkbox_on.svg');
+            }
+        }
+    }
+    .issue-list {
+        &:empty {
+            border-radius: 3px;
+            border: dashed 1px #b2b2b2;
+            background-color: #f2f2f2;
+            padding: 35px 8px;
+            margin-top: 10px;
+            margin-left: 22px;
+            text-align: center;
+            &::before {
+                content: "해당 사항 없음";
+            }
+        }
+    }
+
+    @media only screen and (max-device-width: 1023px) {
+        border: none;
+        box-shadow: none;
+        > .report-contents {
+            padding: 10px;
+            > .report-contents-result {
+                > OL.root-group {
+                    margin-left: 1.5em;
+                    > LI {
+                        > OL.result-group {
+                            margin : 1em 2em 1em .5em;
+                            > LI {
+                                > .report-table {
+                                    font-size: 10px;
+                                    > TABLE {
+                                        TBODY, TD, TH {
+                                            font-size: 1em;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
+
+
+@media print {
+    .startup {
+        &.solution {
+            > .header,
+            > .main {
+                display: none;
+            }
+            > .solution-report {
+                border: none;
+                box-shadow: none;
+                > .report-header {
+                    display: none;
+                }
+                > .report-contents {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .noprint {
+        display: none;
+    }
+}

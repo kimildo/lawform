@@ -1,0 +1,101 @@
+// $width: 1440px;
+// $height: 160px;
+
+// $color: #15376c;
+
+.wrap_autoform_title {
+  text-align: center;
+}
+
+.autoform_title {
+  background-color: #15376c;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0 auto 5px;
+	width: 1440px;
+	height: 135px;
+	background-image: url(/preview_img/preview_title_bg_icon.svg);
+	background-repeat: no-repeat;
+	background-position: 877px 17px;
+}
+
+.wrap_autoform_title_main {
+	margin: 0px 150px 0px;
+}
+
+.wrap_autoform_title_main > H1 {
+	font-size: 28px;
+	margin: 0 0 24px 0;
+	padding-top: 25px;
+}
+.wrap_autoform_title_main > span.subheading {
+	display: block;
+	font-size: 15px;
+	line-height: 20px;
+  max-width: 990px;
+  word-break: keep-all;
+
+}
+
+.autoform_title_header {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-top: 21px;
+}
+
+.autoform_title_content {
+  padding: 18px 0 22px 0;
+  // width: 741px;
+  width: 811px;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing:1.1;
+  text-align: left;
+  color: #ffffff;
+  word-break: keep-all;
+  display: inline-block;
+}
+
+.autoform_title_content > span > a {
+  color: white;
+  text-decoration: underline !important;
+}
+
+.autoform_title_footer{
+    // margin-top: 40px;
+    height: 48px;
+    display: inline-block;
+    padding: 11px 0 0 48px;
+    z-index: 1;
+    position: absolute;
+}
+
+.autoform_writer{
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.autoform_complete_btn{
+    // margin-left: 837px;
+    padding-top: 7px;
+    cursor: pointer;
+    height: 48px;
+  //   filter: blur(1px); 
+  // -webkit-filter: blur(1px); 
+  // -moz-filter: blur(1px);
+  // -o-filter: blur(1px);
+}

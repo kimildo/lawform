@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean');
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script:400');
+
+@font-face {
+     font-family: 'KoPub Dotum';
+     font-style: normal;
+     font-weight: 300;
+     src: url(/assets/fonts/KoPubDotumLight.eot);
+     src: url(/assets/fonts/KoPubDotumLight.eot?#iefix) format('embedded-opentype'),
+          url(/assets/fonts/KoPubDotumLight.woff) format('woff'),
+          url(/assets/fonts/KoPubDotumLight.ttf) format('truetype');
+}
+@font-face {
+     font-family: 'KoPub Dotum';
+     font-style: normal;
+     font-weight: 300;
+     src: url(/assets/fonts/KoPubDotumMedium.eot);
+     src: url(/assets/fonts/KoPubDotumMedium.eot?#iefix) format('embedded-opentype'),
+     url(/assets/fonts/KoPubDotumMedium.woff) format('woff'),
+     url(/assets/fonts/KoPubDotumMedium.ttf) format('truetype');
+}
+//@font-face {
+//     font-family: 'KoPub Dotum';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url(/assets/fonts/KoPubDotumRegular.eot);
+//     src: url(/assets/fonts/KoPubDotumRegular.eot?#iefix) format('embedded-opentype'),
+//          url(/assets/fonts/KoPubDotumRegular.woff) format('woff'),
+//          url(/assets/fonts/KoPubDotumRegular.ttf) format('truetype');
+//}
+@font-face {
+     font-family: 'KoPub Dotum';
+     font-style: normal;
+     font-weight: 700;
+     src: url(/assets/fonts/KoPubDotumBold.eot);
+     src: url(/assets/fonts/KoPubDotumBold.eot?#iefix) format('embedded-opentype'),
+          url(/assets/fonts/KoPubDotumBold.woff) format('woff'),
+          url(/assets/fonts/KoPubDotumBold.ttf) format('truetype');
+}
+@font-face {
+     font-family: 'HJ A';
+     font-style: normal;
+     font-weight: 500;
+     src: url(/assets/fonts/HJHANJEONA.eot);
+     src: url(/assets/fonts/HJHANJEONA.eot?#iefix) format('embedded-opentype'),
+     url(/assets/fonts/HJHANJEONA.woff) format('woff'),
+     url(/assets/fonts/HJHANJEONA.ttf) format('truetype');
+}
+@font-face {
+     font-family: 'HJ B';
+     font-style: normal;
+     font-weight: 500;
+     src: url(/assets/fonts/HJHANJEONB.eot);
+     src: url(/assets/fonts/HJHANJEONB.eot?#iefix) format('embedded-opentype'),
+     url(/assets/fonts/HJHANJEONB.woff) format('woff'),
+     url(/assets/fonts/HJHANJEONB.ttf) format('truetype');
+}

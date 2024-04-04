@@ -1,0 +1,15 @@
+<svg id="그룹_109" data-name="그룹 109" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.667" height="17.667" viewBox="0 0 17.667 17.667">
+  <defs>
+    <filter id="패스_206" x="2.134" y="2.025" width="12.818" height="14.046" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="패스_207" data-name="패스 207" d="M8.833,0A8.833,8.833,0,1,1,0,8.833,8.833,8.833,0,0,1,8.833,0Z" fill="#15376c"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#패스_206)">
+    <path id="패스_206-2" data-name="패스 206" d="M553.483,828.262a.6.6,0,0,0-.785.229l-4.7,8.394-2.96-3.33a.634.634,0,0,0-.8-.1.548.548,0,0,0-.157.79l3.38,4.65a.864.864,0,0,0,.354.281.891.891,0,0,0,1.15-.4l.007-.016,4.768-9.78A.533.533,0,0,0,553.483,828.262Z" transform="translate(-540.34 -824.67)" fill="#fff"/>
+  </g>
+</svg>

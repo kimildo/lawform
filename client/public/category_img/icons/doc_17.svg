@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.391" height="63.798" viewBox="0 0 56.391 63.798">
+  <g id="그룹_1729" data-name="그룹 1729" transform="translate(-1072.135 -277.239)">
+    <rect id="사각형_447" data-name="사각형 447" width="14.386" height="4.078" transform="matrix(0.33, -0.944, 0.944, 0.33, 1112.165, 326.848)" fill="#ffcd73"/>
+    <rect id="사각형_448" data-name="사각형 448" width="10.472" height="4.078" transform="translate(1118.439 308.88) rotate(-70.753)" fill="#15376c"/>
+    <g id="그룹_1726" data-name="그룹 1726">
+      <path id="패스_1136" data-name="패스 1136" d="M1112.165,326.848a13.419,13.419,0,0,0-.508,5.965l.168,1.193.874-.829a13.4,13.4,0,0,0,3.316-4.986l4.489-12.853v25.2h-47.869v-62.8H1120.5v25.226l-2.064,5.914Z" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_141" data-name="선 141" x2="31.542" transform="translate(1081.11 309.429)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_142" data-name="선 142" x2="31.542" transform="translate(1081.11 315.11)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_143" data-name="선 143" x2="20.843" transform="translate(1086.148 320.79)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_144" data-name="선 144" x2="9.85" transform="translate(1100.451 334.204)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="선_145" data-name="선 145" x2="9.85" transform="translate(1082.359 334.204)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <g id="그룹_1725" data-name="그룹 1725">
+        <rect id="사각형_449" data-name="사각형 449" width="19.032" height="4.078" transform="translate(1112.165 326.848) rotate(-70.753)" stroke-width="1" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <rect id="사각형_450" data-name="사각형 450" width="10.472" height="4.078" transform="translate(1118.439 308.88) rotate(-70.753)" stroke-width="1" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <line id="선_146" data-name="선 146" x1="3.85" y1="1.344" transform="translate(1116.907 313.266)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_1137" data-name="패스 1137" d="M1121.891,298.993l.52-1.489,5.615,1.961-4.924,14.1" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_1138" data-name="패스 1138" d="M1114.33,327.6l-.479-.167-1.686-.589a13.416,13.416,0,0,0-.507,5.966l.281.1.479.167.281.1a13.426,13.426,0,0,0,3.317-4.986Z" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_1139" data-name="패스 1139" d="M1111.658,332.814l.168,1.192.874-.828Z" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="그룹_1727" data-name="그룹 1727">
+      <path id="패스_1140" data-name="패스 1140" d="M1102.481,302.588h1.752v-9.9h2.69l-4.129-2.839v-3.827h-2.446v2.145l-3.467-2.385-10.042,6.906h2.769v9.9h12.873Z" fill="#ffc7c0"/>
+    </g>
+    <g id="그룹_1728" data-name="그룹 1728">
+      <path id="패스_1141" data-name="패스 1141" d="M1102.481,302.588h1.752v-9.9h2.69l-4.129-2.839v-3.827h-2.446v2.145l-3.467-2.385-10.042,6.906h2.769v9.9h12.873Z" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

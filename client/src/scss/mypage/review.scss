@@ -1,0 +1,119 @@
+.reviewWrite .MuiDialog-paperWidthSm-63 {
+    max-width: 743px;
+}
+
+.reviewWrite .category_review {
+    background-image: url("/mypage_img/review_bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.reviewWrite .category_review > .close {
+    position: absolute;
+    margin: 0;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.reviewWrite .category_review > .event_header {
+    background-image: url("/mypage_img/review_event_header.png");
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 351px;
+    margin: 10px auto;
+}
+
+.reviewWrite .category_review > .event_header  > BUTTON {
+    background-color: #43392E;
+    border: 0;
+    border-radius: 5px;
+    margin: 380px 0 0 273px;
+    width: 150px;
+    height: 38px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.reviewWrite .category_review .write {
+    padding:30px 30px 15px;
+}
+
+.reviewWrite .category_review .write > SELECT {
+    width: 237px;
+    height: 38px;
+    vertical-align: bottom;
+    cursor: pointer;
+    -webkit-appearance: none;
+    padding-left: 5px;
+    background: url(/common/down-arrow-d.svg) no-repeat 215px;
+}
+
+.reviewWrite .category_review .write > .selectScore {
+    height: 38px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: default;
+    background: url(/common/down-arrow-d.svg) no-repeat 230px;
+}
+
+.reviewWrite .category_review .write > .selectScore > .stars {
+    padding: 6px;
+    display: inline-block;
+}
+
+.reviewWrite .category_review .write > .selectScore > span {
+    font-size: 13px;
+    vertical-align: text-top;
+}
+
+.reviewWrite .category_review .write > .selectScore > .starSelector {
+    position: absolute;
+    top:38px;
+    left: 0;
+}
+
+.reviewWrite .category_review .write > textarea#reviewWrite {
+    width: 680px;
+    height: 80px;
+    resize: none;
+    margin: 10px auto;
+}
+.reviewWrite .category_review .write > button {
+    background-color: #43392E;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 38px;
+    color: #FFF;
+    margin-left: 270px;
+    cursor: pointer;
+}
+
+.reviewWrite .category_review .cautions {
+    padding: 15px 10px;
+    color:#3e3e3e;
+    border-top:1px dashed #707070;
+    margin-left:30px;
+    width: 665px;
+}
+
+.reviewWrite .category_review .cautions > h3 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    margin: 0;
+
+
+}
+
+.reviewWrite .category_review  .cautions > OL {
+    display: inline-block;
+    width: 460px;
+    font-size: 11px;
+    margin: 0;
+    line-height: 20px;
+
+}

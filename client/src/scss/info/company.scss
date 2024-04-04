@@ -1,0 +1,106 @@
+.company_info {
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR';
+    > .visual {
+		background-image: url('/images/common/visual-bg-company.jpg');
+    }
+}
+
+.company_info UL {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company_info * {
+    box-sizing: border-box;
+}
+
+.company_info a:link,
+.company_info a:visited ,
+.company_info a:hover,
+.company_info a:active {
+  text-decoration: none;
+  color: #292a2b;
+}
+
+.company_info > .top {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1920px;
+    height: 300px;
+    padding: 73px 0 35px;
+    margin: 0 auto;
+    background-image: url('/info_img/company-top-bg.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.company_info > .top > h1 {
+    font-size: 40px;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 0px auto;
+    padding-left: 20px;
+    max-width: 1200px;
+    font-family: 'KoPub Dotum';
+}
+
+.company_info > .top > div {
+    max-width: 1200px;
+    margin: 10px auto 0;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #4e4e4e;
+}
+
+.company_info > .top > ul.breadcrumb {
+    max-width: 1200px;
+    margin: 84px auto 0;
+    padding: 0 0 0 20px;
+    color: #4e4e4e;
+}
+.company_info > .top > ul.breadcrumb > LI {
+    display: inline-block;
+    font-size: 15px;
+    background-image: url('/info_img/breadcrumb-arrow.svg');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position: 0px 2px; 
+}
+.company_info > .top > ul.breadcrumb > LI:first-child {
+    background: unset;
+    padding-left: 0;
+}
+
+.company_info > .section {
+    text-align: center;
+    width: 100%;
+    color: #292a2b;
+    padding: 0 0 0px;
+    margin: 0;
+    clear: both;
+}
+
+.company_info > .banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('/info_img/company-banner.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 90px;
+}
+
+.company_info > .links {
+    width: 1200px;
+    margin: 0 auto 130px;
+    text-align: center;
+}
+
+.company_info > .links > a:first-child {
+    margin-right: 25px;
+}

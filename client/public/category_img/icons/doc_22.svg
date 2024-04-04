@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.222" height="71.334" viewBox="0 0 62.222 71.334">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_956" data-name="패스 956" d="M926.5,158.572l-6.634,63.663-24.793-1.047-3.061-61.836Z" transform="translate(-892.01 -158.572)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="패스_957" data-name="패스 957" d="M937.565,160.267l-15.414,62.124,27.946,2.863,5.558-61.662Z" transform="translate(-922.152 -160.267)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1482" data-name="그룹 1482" transform="translate(0 0.5)">
+    <g id="그룹_1479" data-name="그룹 1479">
+      <rect id="사각형_360" data-name="사각형 360" width="44.995" height="57.224" transform="translate(16.727)" fill="#e6e6e6"/>
+      <rect id="사각형_361" data-name="사각형 361" width="44.995" height="57.224" transform="translate(16.727)" stroke-width="1" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <g id="그룹_1472" data-name="그룹 1472" transform="translate(0 4.242)">
+        <g id="그룹_1471" data-name="그룹 1471">
+          <g id="그룹_1470" data-name="그룹 1470" clip-path="url(#clip-path)">
+            <g id="그룹_1469" data-name="그룹 1469" transform="translate(4.576 2.816)">
+              <g id="그룹_1468" data-name="그룹 1468">
+                <rect id="사각형_362" data-name="사각형 362" width="43.393" height="57.224" fill="#fff" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_87" data-name="선 87" x2="12.543" transform="translate(25.202 8.589)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_88" data-name="선 88" x2="12.543" transform="translate(25.202 13.89)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_89" data-name="선 89" x2="12.543" transform="translate(25.202 19.19)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_90" data-name="선 90" x2="12.543" transform="translate(25.202 24.491)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_91" data-name="선 91" x2="32.023" transform="translate(5.722 29.766)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_92" data-name="선 92" x2="32.023" transform="translate(5.722 43.645)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <line id="선_93" data-name="선 93" x2="32.023" transform="translate(5.722 48.484)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                <rect id="사각형_363" data-name="사각형 363" width="32.023" height="4.255" transform="translate(5.722 34.53)" fill="#15376c"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <line id="선_94" data-name="선 94" x1="5.963" y2="57.224" transform="translate(28.232 2.816)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="그룹_1478" data-name="그룹 1478" transform="translate(28.527 5.847)">
+        <g id="그룹_1477" data-name="그룹 1477">
+          <g id="그룹_1476" data-name="그룹 1476">
+            <g id="그룹_1475" data-name="그룹 1475" clip-path="url(#clip-path-2)">
+              <g id="그룹_1474" data-name="그룹 1474" transform="translate(-22.549 -1.367)">
+                <g id="그룹_1473" data-name="그룹 1473">
+                  <rect id="사각형_364" data-name="사각형 364" width="57.224" height="43.393" transform="translate(0 56.669) rotate(-82.015)" stroke-width="1" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+                  <rect id="사각형_365" data-name="사각형 365" width="16.47" height="15.237" transform="translate(10.135 25.611) rotate(-82.015)" fill="#e6e6e6"/>
+                  <line id="선_95" data-name="선 95" x2="12.421" y2="1.742" transform="translate(31.714 12.007)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_96" data-name="선 96" x2="12.421" y2="1.742" transform="translate(30.977 17.256)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_97" data-name="선 97" x2="12.421" y2="1.742" transform="translate(30.241 22.505)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_98" data-name="선 98" x2="12.421" y2="1.742" transform="translate(29.505 27.754)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_99" data-name="선 99" x2="31.712" y2="4.448" transform="translate(9.481 30.273)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_100" data-name="선 100" x2="31.712" y2="4.448" transform="translate(7.553 44.017)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <line id="선_101" data-name="선 101" x2="31.712" y2="4.448" transform="translate(6.881 48.809)" fill="none" stroke="#383838" stroke-linejoin="round" stroke-width="1"/>
+                  <rect id="사각형_366" data-name="사각형 366" width="4.255" height="32.023" transform="translate(8.228 39.204) rotate(-82.015)" fill="#15376c"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <line id="선_102" data-name="선 102" x1="13.854" y2="55.841" transform="translate(0.877 2.748)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="그룹_1480" data-name="그룹 1480" transform="translate(9.827 17.055)">
+      <path id="패스_958" data-name="패스 958" d="M915.125,185.794h1.426v-8.062h2.19l-3.361-2.311v-3.115h-1.991v1.746l-2.822-1.941-8.174,5.622h2.254v8.062h10.478Z" transform="translate(-902.393 -172.111)" fill="#ffcd73"/>
+    </g>
+    <g id="그룹_1481" data-name="그룹 1481" transform="translate(9.827 17.055)">
+      <path id="패스_959" data-name="패스 959" d="M915.125,185.794h1.426v-8.062h2.19l-3.361-2.311v-3.115h-1.991v1.746l-2.822-1.941-8.174,5.622h2.254v8.062h10.478Z" transform="translate(-902.393 -172.111)" fill="none" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

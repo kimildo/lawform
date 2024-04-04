@@ -1,0 +1,243 @@
+.page-view {
+    display: inline-block;
+    text-align: left;
+    font-size: 0;
+    position: relative;
+    margin: 0 auto;
+    vertical-align: top;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+
+    .original-stamp {
+        width: 60px;
+        height: 39px;
+        border: solid 2px #ff1a1a;
+        color: #ff1a1a;
+        font-size: 23px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-weight: 900;
+        text-align: center;
+        z-index: 9;
+        background-color: #FFF;
+    }
+
+    .edit-stamp {
+        width: 90px;
+        color: #2C7BFF;
+        border-color: #2C7BFF;
+
+        .comment-balloon {
+            position: absolute;
+            text-align: center;
+            background: #fff8cc;
+            color: #000;
+            padding-top: 5px;
+            width: 180px;
+            height: 44px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            top: 58px;
+            left: -3px;
+            font-size: 9pt;
+            box-shadow: 2px 2px 3px #d1d1d1;
+            z-index: 1;
+            cursor: pointer;
+
+            > span {
+                display: block;
+            }
+
+            &:after, &:before {
+                content: " ";
+                width: 0;
+                height: 0;
+                position: absolute;
+            }
+
+            &:after {
+                left: 40px;
+                top: -12px;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 12px solid #fff8cc;
+            }
+
+            &:before {
+                left: 39px;
+                top: -14px;
+                border-left: 7px solid transparent;
+                border-right: 7px solid transparent;
+                border-bottom: 14px solid #000;
+            }
+        }
+    }
+
+    .page {
+        vertical-align: top;
+        display: block;
+        background-color: #fff;
+        //width: 622px;
+        height: 100%;
+        max-height: 100%;
+        font-size: 12px;
+        box-sizing: border-box;
+        //padding: 20px;
+        min-height: 600px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+
+        &::-webkit-scrollbar {
+            width: 3px;
+            // background: #FFF;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(21, 55, 108, 1);
+            opacity: .4;
+            border-radius: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #fff;
+        }
+        &::-webkit-scrollbar-button	{
+            background: none;
+            height: 40px;
+        }
+
+        .wrap_autoform_output_content {
+            //padding: 0 60px;
+            //width: auto;
+        }
+    }
+    .accept-box {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        margin-left: -168px;
+        width: 336px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px 0;
+        .accept-msg {
+            color: #ffe872;
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+        }
+    }
+    .processing-status-msg {
+        position: absolute;
+        bottom: 40%;
+        left: 50%;
+        margin-left: -320px;
+        width: 641px;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px 0;
+        color: #FFF;
+        font-size: 13px;
+
+        .processing-status-buttons {
+            margin-top: 10px;
+            button {
+                margin-right: 5px;
+            }
+
+        }
+    }
+    .progressbar {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        margin-left: -168px;
+        width: 336px;
+        height: 102px;
+        opacity: 0.75;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.9);
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        box-sizing: border-box;
+        padding-top: 13px;
+    }
+    .tabs {
+        position: absolute;
+        top: 5px;
+        left: -70px;
+        .tab {
+            position: relative;
+            display: block;
+            background-color: #f5f5f5;
+            box-sizing: border-box;
+            color: #bfbfbf;
+            font-size: 13px;
+            padding: 10px 15px;
+            text-align: center;
+            cursor: pointer;
+            width: 69px;
+            .pivot {
+                display: none;
+                position: absolute;
+                right: -10px;
+                top: 50%;
+                margin-top: -10px;
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 10px solid #435062;
+            }
+        }
+        .tab-active {
+            background-color: #435062;
+            color: #fff;
+            .pivot {
+                display: inline-block;
+            }
+        }
+    }
+    .footnote {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background-color: #15376c;
+        padding-top: 6px;
+        padding-left: 44px;
+        box-sizing: border-box;
+        .name {
+            font-size: 16px;
+            color: #fff;
+            display: block;
+        }
+        .price {
+            font-size: 19px;
+            color: #fff;
+            display: block;
+        }
+        .btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+    }
+
+}
+
+.page-select {
+    -webkit-user-select: text !important; /* Safari */
+    -moz-user-select: text !important; /* Old versions of Firefox */
+    -ms-user-select: text !important; /* Internet Explorer/Edge */
+    user-select: text !important; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}

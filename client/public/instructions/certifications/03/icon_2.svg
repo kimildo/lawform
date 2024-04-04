@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.725" height="29.135" viewBox="0 0 25.725 29.135">
+  <g id="심볼_21" data-name="심볼 21" transform="translate(0.75 0.75)">
+    <g id="그룹_32" data-name="그룹 32" transform="translate(0 0)">
+      <path id="패스_21" data-name="패스 21" d="M620.253,605.693H603.04a1.24,1.24,0,0,1-1.275-1.2V582.864l5.1-4.806h17.85a1.239,1.239,0,0,1,1.275,1.2v25.258a1.213,1.213,0,0,1-1.248,1.176Z" transform="translate(-601.765 -578.058)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="패스_22" data-name="패스 22" d="M606.571,578.058v3.6a1.2,1.2,0,0,1-1.2,1.2h-3.6" transform="translate(-601.765 -578.058)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="선_1" data-name="선 1" x2="12.506" transform="translate(8.831 7.81)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="선_2" data-name="선 2" x2="18.45" transform="translate(2.887 11.504)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <g id="그룹_31" data-name="그룹 31" transform="translate(17.016 2.402)">
+        <path id="패스_23" data-name="패스 23" d="M621.293,580.661h1.2a1.2,1.2,0,0,1,1.2,1.2v1.2" transform="translate(-618.89 -580.661)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="선_3" data-name="선 3" x1="1.202" transform="translate(0 0)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <line id="선_4" data-name="선 4" x2="18.45" transform="translate(2.887 15.198)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="선_5" data-name="선 5" x2="18.45" transform="translate(2.887 18.892)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="선_6" data-name="선 6" x2="18.45" transform="translate(2.887 22.586)" fill="#fff" stroke="#333" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
